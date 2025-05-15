@@ -1,5 +1,5 @@
 # INE5454
-Repositório para o trabalho da disciplina INE5454 - Tópicos Especiais em Gerência de Dados
+Repositório para o trabalho da disciplina INE5454 - Tópicos Especiais em Gerência de Dados.
 
 # Execução usando ambientes virtuais do python
 
@@ -25,4 +25,10 @@ pip install -r requirements.txt
 
 ```
 python web_scraper.py
+```
+
+5. Desative o ambiente virtual:
+
+```
+deactivate
 ```
