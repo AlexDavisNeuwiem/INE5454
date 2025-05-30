@@ -2,7 +2,7 @@ PYTHON := python3
 PIP := pip3
 VENV_DIR := venv
 SRC_DIR := .
-REQ_FILE := ../requirements.txt
+REQ_FILE := requirements.txt
 TARGET := main.py
 
 .PHONY: all run install clean venv

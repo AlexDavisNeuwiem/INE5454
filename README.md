@@ -32,3 +32,9 @@ python web_scraper.py
 ```
 deactivate
 ```
+
+
+# Sites utilizados
+- https://www.recipetineats.com/
+- https://www.food.com/
+- https://pinchofyum.com/

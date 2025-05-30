@@ -7,13 +7,12 @@ resposta_html = requests.get("https://pinchofyum.com/recipes/dessert").content
 
 conteudo_extraido = BeautifulSoup(resposta_html, 'html.parser')
 
-print(conteudo_extraido.prettify())
+# print(conteudo_extraido.prettify())
 
-with open("dados/conteudo_extraido.html", "w") as file:
+with open("src/dados/pinch_of_yum/conteudo_extraido_poy.html", "w") as file:
   file.write(conteudo_extraido.prettify())
 
 receitas = conteudo_extraido.find_all("article")
-print(receitas)
 
 resposta = []
 receita_nr = 1
@@ -26,12 +25,12 @@ for receita in receitas:
     break
 
   tit = titulo.text
-  print("Título:", tit)
+  # print("Título:", tit)
 
   dados = {'NUMERO': str(receita_nr), 'TITULO': tit}
 
   resposta.append(dados)
   receita_nr += 1
 
-with open("dados/receitas.json", "w") as file:
+with open("src/dados/pinch_of_yum/receitas_poy.json", "w") as file:
   file.write(str(json.dumps(resposta, indent=4)))
