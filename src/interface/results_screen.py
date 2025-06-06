@@ -191,11 +191,9 @@ class ResultsScreen(QWidget):
         # Monta o título com informações sobre as fontes
         title_text = f'Resultados para: "{search_term}" ({len(found_recipes)} receitas encontradas)'
         if source_counts:
-            print(f'SOURCE: {source}')
             sources_info = " | ".join([f"{source.replace('_', ' ').replace('src/dados/', '').replace('/receitas', '').title()}: {count}" 
                                      for source, count in source_counts.items()])
             title_text += f"\n{sources_info}"
-            print(f'INFO: {sources_info}')
         
         self.results_title.setText(title_text)
         
@@ -225,12 +223,13 @@ class ResultsScreen(QWidget):
         self.scroll_area.verticalScrollBar().setValue(0)
     
     def select_recipe(self, recipe_data):
-        """Lida com a seleção de uma receita"""
+        """Lida com a seleção de uma receita - abre a tela de detalhes"""
         title = recipe_data.get('TITULO', 'Receita sem título')
         numero = recipe_data.get('NUMERO', 'N/A')
         source = recipe_data.get('SOURCE', 'Desconhecida')
         print(f"Receita selecionada: #{numero} - {title} (Fonte: {source})")
-        # Aqui você pode implementar a lógica adicional quando uma receita é selecionada
+        # Abre os detalhes da receita
+        self.main_window.show_recipe_detail(recipe_data)
     
     def go_back(self):
         self.main_window.show_search_screen()

@@ -2,11 +2,14 @@ from PyQt5.QtWidgets import QMainWindow, QStackedWidget
 
 from src.interface.results_screen import ResultsScreen
 from src.interface.search_screen import SearchScreen
+from src.interface.recipe_detail_screen import RecipeDetailScreen
 
 
 class RecipeApp(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.current_search_term = ""
+        self.current_found_recipes = []
         self.init_ui()
     
     def init_ui(self):
@@ -20,10 +23,12 @@ class RecipeApp(QMainWindow):
         # Criar as telas
         self.search_screen = SearchScreen(self)
         self.results_screen = ResultsScreen(self)
+        self.detail_screen = RecipeDetailScreen(self)
         
         # Adicionar as telas ao stack
         self.stacked_widget.addWidget(self.search_screen)
         self.stacked_widget.addWidget(self.results_screen)
+        self.stacked_widget.addWidget(self.detail_screen)
         
         # Começar com a tela de pesquisa
         self.stacked_widget.setCurrentWidget(self.search_screen)
@@ -45,5 +50,19 @@ class RecipeApp(QMainWindow):
         """Atualizada para receber as receitas encontradas"""
         if found_recipes is None:
             found_recipes = []
+        
+        # Salvar o estado atual para poder voltar
+        self.current_search_term = search_term
+        self.current_found_recipes = found_recipes
+        
         self.results_screen.update_results(search_term, found_recipes)
         self.stacked_widget.setCurrentWidget(self.results_screen)
+    
+    def show_results_screen_from_detail(self):
+        """Volta para a tela de resultados mantendo os dados anteriores"""
+        self.stacked_widget.setCurrentWidget(self.results_screen)
+    
+    def show_recipe_detail(self, recipe_data):
+        """Mostra os detalhes de uma receita específica"""
+        self.detail_screen.update_recipe_detail(recipe_data)
+        self.stacked_widget.setCurrentWidget(self.detail_screen)
