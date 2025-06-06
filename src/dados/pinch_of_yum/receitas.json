@@ -177,7 +177,7 @@
     },
     {
         "NUMERO": "45",
-        "TITULO": "Best S\u2019mores Bars"
+        "TITULO": "Best S’mores Bars"
     },
     {
         "NUMERO": "46",
@@ -209,6 +209,54 @@
     },
     {
         "NUMERO": "53",
+        "TITULO": "Salted Caramel Rice Krispie Bars"
+    },
+    {
+        "NUMERO": "54",
+        "TITULO": "The Best Carrot Cake Cupcakes with Cream Cheese Frosting"
+    },
+    {
+        "NUMERO": "55",
+        "TITULO": "Dulce De Leche Tiramisu"
+    },
+    {
+        "NUMERO": "56",
+        "TITULO": "Party Brownies"
+    },
+    {
+        "NUMERO": "57",
+        "TITULO": "Two Huge Double Chocolate Cookies"
+    },
+    {
+        "NUMERO": "58",
+        "TITULO": "Two Huge Chocolate Chip Cookies"
+    },
+    {
+        "NUMERO": "59",
+        "TITULO": "Pumpkin Muffins with Maple Cream Cheese Filling"
+    },
+    {
+        "NUMERO": "60",
+        "TITULO": "Pumpkin Caramel Monkey Bread"
+    },
+    {
+        "NUMERO": "61",
+        "TITULO": "English Muffin Baklava"
+    },
+    {
+        "NUMERO": "62",
+        "TITULO": "Favorite Browned Butter Chocolate Chip Cookies"
+    },
+    {
+        "NUMERO": "63",
+        "TITULO": "Strawberry White Chocolate Cookies"
+    },
+    {
+        "NUMERO": "64",
+        "TITULO": "Cream Cheese Danishes with Sugared Cranberries and Butter Glaze"
+    },
+    {
+        "NUMERO": "65",
         "TITULO": "Salted Caramel Rice Krispie Bars"
     }
 ]

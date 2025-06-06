@@ -1,36 +1,24 @@
-import json
-import requests
-from bs4 import BeautifulSoup
+from src.recipe_scrapper import RecipeScraper
 
 
-resposta_html = requests.get("https://www.recipetineats.com/recipes/").content
+class RecipeTinEats(RecipeScraper):
+    def extract_recipes(self):
+        receitas_html = self.soup.find_all("article")
+        resposta = []
+        receita_nr = 1
 
-conteudo_extraido = BeautifulSoup(resposta_html, 'html.parser')
+        for receita in receitas_html:
+            titulo = receita.find("h2", {"class" : "entry-title"})
 
-# print(conteudo_extraido.prettify())
+            if not titulo:
+                continue
 
-with open("src/dados/recipe_tin_eats/conteudo_extraido_rte.html", "w") as file:
-  file.write(conteudo_extraido.prettify())
+            dados = {
+                'NUMERO': str(receita_nr),
+                'TITULO': titulo.text.strip()
+            }
 
-receitas = conteudo_extraido.find_all("article")
+            resposta.append(dados)
+            receita_nr += 1
 
-resposta = []
-receita_nr = 1
-
-for receita in receitas:
-
-  titulo = receita.find("h2", {"class" : "entry-title"})
-
-  if not titulo:
-    break
-
-  tit = titulo.text
-  # print("Título:", tit)
-
-  dados = {'NUMERO': str(receita_nr), 'TITULO': tit}
-
-  resposta.append(dados)
-  receita_nr += 1
-
-with open("src/dados/recipe_tin_eats/receitas_rte.json", "w") as file:
-  file.write(str(json.dumps(resposta, indent=4)))
+        return resposta

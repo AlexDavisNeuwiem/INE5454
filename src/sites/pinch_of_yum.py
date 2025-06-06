@@ -1,36 +1,26 @@
-import json
-import requests
-from bs4 import BeautifulSoup
+from src.recipe_scrapper import RecipeScraper
 
 
-resposta_html = requests.get("https://pinchofyum.com/recipes/dessert").content
+class PinchOfYum(RecipeScraper):
+    def extract_recipes(self):
+        receitas_html = self.soup.find_all("article")
+        resposta = []
+        receita_nr = 1
 
-conteudo_extraido = BeautifulSoup(resposta_html, 'html.parser')
+        for receita in receitas_html:
+            titulo = receita.find("h3", {
+                "class": "font-domaine text-2xl normal-case tracking-normal leading-tighter text-black"
+            })
 
-# print(conteudo_extraido.prettify())
+            if not titulo:
+                continue
 
-with open("src/dados/pinch_of_yum/conteudo_extraido_poy.html", "w") as file:
-  file.write(conteudo_extraido.prettify())
+            dados = {
+                'NUMERO': str(receita_nr),
+                'TITULO': titulo.text.strip()
+            }
 
-receitas = conteudo_extraido.find_all("article")
+            resposta.append(dados)
+            receita_nr += 1
 
-resposta = []
-receita_nr = 1
-
-for receita in receitas:
-
-  titulo = receita.find("h3", {"class" : "font-domaine text-2xl normal-case tracking-normal leading-tighter text-black"})
-
-  if not titulo:
-    break
-
-  tit = titulo.text
-  # print("Título:", tit)
-
-  dados = {'NUMERO': str(receita_nr), 'TITULO': tit}
-
-  resposta.append(dados)
-  receita_nr += 1
-
-with open("src/dados/pinch_of_yum/receitas_poy.json", "w") as file:
-  file.write(str(json.dumps(resposta, indent=4)))
+        return resposta
