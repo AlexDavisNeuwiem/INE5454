@@ -5,29 +5,40 @@ class RecipeTinEats(RecipeScraper):
     def extract_recipes(self):
         receitas_html = self.soup.find_all("article")
         resposta = []
-        receita_nr = 1
+        
+
+        if not receitas_html:
+            print("Nenhum 'article' encontrado na página. Fim da coleta.")
+            return [], False
+
 
         for receita in receitas_html:
-            titulo = receita.find("h2", {"class" : "entry-title"})
+            link_tag = receita.find("a", class_="entry-title-link")
+            # titulo = receita.find("h2", {"class" : "entry-title"})
+            # link = receita.find("h2", {"class" : "entry-title"})
 
-            print(titulo)
+            if link_tag:
+                # 5. Extraímos o título e o link da mesma tag
+                titulo = link_tag.text.strip()
+                link = link_tag.get('href', '') # .get() é mais seguro que [], evita erro se href não existir
 
-            if not titulo:
-                return resposta, False
-
+            
+            self.recipes_num += 1
             dados = {
-                'NUMERO': str(receita_nr),
-                'TITULO': titulo.text.strip()
+                'NUMERO': self.recipes_num,
+                'TITULO': titulo,
+                'LINK': link
             }
 
             resposta.append(dados)
-            receita_nr += 1
 
         return resposta, True
 
     def run(self):
         finish = True
+        numero_pagina_int = 0
         # Percorre as URLs procurando por receitas
+
         while(finish):
             # Retorna a próxima URL
             self.fetch_content()
@@ -36,18 +47,17 @@ class RecipeTinEats(RecipeScraper):
             # Extrai as receitas do site
             recipe_list, finish = self.extract_recipes()
             self.recipes.extend(recipe_list)
+            print(numero_pagina_int)
+            if numero_pagina_int == 80:
+                    break
 
-
+            
             # Segue para a próxima página      
             url_base, numero_pagina_str = self.url.split('=')
-            # print(url_base)
             # print(numero_pagina_str)
             numero_pagina_int = int(numero_pagina_str) + 1
             self.url = f"{url_base}={numero_pagina_int}"
-            # print(f"Próxima URL a ser pesquisada: {self.url}")
 
-            if numero_pagina_int == 81:
-                break
             
         # Salva o arquivo json
         self.save_json(self.recipes)

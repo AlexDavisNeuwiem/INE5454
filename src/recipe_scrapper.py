@@ -9,6 +9,7 @@ class RecipeScraper:
         self.output_dir = output_dir
         self.soup = None
         self.recipes = []
+        self.recipes_num = 0
 
     def fetch_content(self):
         response = requests.get(self.url)
