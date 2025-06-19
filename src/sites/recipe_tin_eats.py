@@ -51,13 +51,25 @@ class RecipeTinEats(RecipeScraper):
             return title, author, prep_time, ingredients, instructions
 
         title = recipe_html[0].select_one("h2", id="jump-recipes")
-        title = title.text.strip()
+        try:
+            title = title.text.strip()
+        except:
+            title = "ERROR"
         
         author = recipe_html[0].select_one("span.wprm-recipe-details.wprm-recipe-author.wprm-block-text-normal")
-        author = author.text.strip()
+        try:
+            author = author.text.strip()
+        except:
+            author = "ERROR"
             
+        prep_time = recipe_html[0].select_one("span.wprm-recipe-details.wprm-recipe-details-minutes.wprm-recipe-prep_time.wprm-recipe-prep_time-minutes")
+        try:
+            prep_time = prep_time.text.strip()
+        except:
+            prep_time = "ERROR"                
+
         return title, author, prep_time, ingredients, instructions
-  
+        
     def run(self):
         finish = True
         numero_pagina_int = 0
@@ -80,7 +92,7 @@ class RecipeTinEats(RecipeScraper):
                 recipe['INGREDIENTS'] = ingredients
                 recipe['INSTRUCTIONS'] = instructions
             self.url = url_tmp
-
+            print("PREP TIME3: ", recipe['PREP_TIME'])
             self.recipes.extend(recipe_list)
             print(numero_pagina_int)
             
