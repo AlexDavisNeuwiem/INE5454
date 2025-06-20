@@ -1,3 +1,5 @@
+import json
+
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, 
                              QLabel, QPushButton, QScrollArea, QFrame,
                              QTextEdit, QSplitter)
@@ -143,82 +145,73 @@ class RecipeDetailScreen(QWidget):
             if child.widget():
                 child.widget().deleteLater()
     
+    def format_list_content(self, content):
+        """Formata o conteúdo de listas para exibição"""
+        
+        if content is None:
+            return "Não disponível"
+            
+        if isinstance(content, list):
+            if not content:
+                return "Não disponível"
+            # Se é uma lista de strings, junta com quebras de linha
+            formatted_items = []
+            for i, item in enumerate(content):
+                if item is not None and str(item).strip():
+                    formatted_items.append(f"• {str(item).strip()}")
+            result = '\n'.join(formatted_items) if formatted_items else "Não disponível"
+            return result
+        else:
+            result = str(content) if content else "Não disponível"
+            return result
+    
     def update_recipe_detail(self, recipe_data):
         """Atualiza a tela com os detalhes da receita"""
-        self.current_recipe = recipe_data
         
         # Limpa o conteúdo anterior
         self.clear_content()
-        
+        self.current_recipe = recipe_data
+
         # Título principal da receita
-        title = recipe_data.get('TITULO', 'Receita sem título')
-        main_title = QLabel(title)
-        main_title.setAlignment(Qt.AlignCenter)
-        main_title.setFont(QFont("Arial", 20, QFont.Bold))
-        main_title.setStyleSheet("""
-            color: #2c3e50; 
-            background-color: #ecf0f1; 
-            padding: 20px; 
-            border-radius: 10px;
-            margin-bottom: 20px;
-        """)
-        main_title.setWordWrap(True)
-        
-        self.content_layout.addWidget(main_title)
-        
-        # Informações básicas
-        info_layout = QHBoxLayout()
+        title = self.current_recipe.get('TITLE')
+        title_section = self.create_info_section("Título da Receita", f"{title}")
+        self.content_layout.addWidget(title_section)
         
         # Número da receita
-        numero = recipe_data.get('NUMERO', 'N/A')
+        numero = self.current_recipe.get('NUMBER')
         numero_section = self.create_info_section("Número da Receita", f"#{numero}")
-        numero_section.setMaximumWidth(200)
+        self.content_layout.addWidget(numero_section)
         
-        # Fonte
-        source = recipe_data.get('SOURCE', 'Desconhecida')
-        source_clean = source.replace('_', ' ').replace('src/dados/', '').replace('/receitas', '').title()
-        source_section = self.create_info_section("Fonte", source_clean)
-        source_section.setMaximumWidth(200)
+        # Autor
+        author = self.current_recipe.get('AUTHOR')
+        author_section = self.create_info_section("Autor", author)
+        self.content_layout.addWidget(author_section)
         
-        info_layout.addWidget(numero_section)
-        info_layout.addWidget(source_section)
-        info_layout.addStretch()
+        # Tempo de preparo
+        prep_time = self.current_recipe.get('PREP_TIME')
+        if prep_time and str(prep_time).strip() and str(prep_time) != 'ERROR':
+            prep_time_section = self.create_info_section("Tempo de Preparo", str(prep_time))
+            self.content_layout.addWidget(prep_time_section)
         
-        self.content_layout.addLayout(info_layout)
+        # Link da receita original
+        link = self.current_recipe.get('LINK')
+        if link and str(link).strip():
+            link_section = self.create_info_section("Link Original", str(link))
+            self.content_layout.addWidget(link_section)
         
-        # Outras informações disponíveis
-        fields_to_show = [
-            ('CATEGORIA', 'Categoria'),
-            ('TEMPO_PREPARO', 'Tempo de Preparo'),
-            ('PORCOES', 'Porções'),
-            ('DIFICULDADE', 'Dificuldade'),
-            ('DESCRICAO', 'Descrição'),
-            ('INGREDIENTES', 'Ingredientes'),
-            ('MODO_PREPARO', 'Modo de Preparo'),
-            ('DICAS', 'Dicas'),
-            ('INFORMACOES_NUTRICIONAIS', 'Informações Nutricionais'),
-            ('TAGS', 'Tags'),
-            ('URL', 'URL Original')
-        ]
+        # Ingredientes
+        ingredients = self.current_recipe.get('INGREDIENTS')
+        if ingredients:
+            ingredients_content = self.format_list_content(ingredients)
+            ingredients_section = self.create_info_section("Ingredientes", ingredients_content, is_text_area=True)
+            self.content_layout.addWidget(ingredients_section)
         
-        for field_key, field_title in fields_to_show:
-            field_value = recipe_data.get(field_key)
-            if field_value and field_value != 'N/A' and field_value.strip():
-                # Campos que devem ser exibidos em área de texto
-                text_area_fields = ['INGREDIENTES', 'MODO_PREPARO', 'DICAS', 'DESCRICAO']
-                is_text_area = field_key in text_area_fields
-                
-                # Formatar o conteúdo se necessário
-                if isinstance(field_value, list):
-                    if field_key == 'TAGS':
-                        content = ', '.join(field_value)
-                    else:
-                        content = '\n'.join([f"• {item}" for item in field_value])
-                else:
-                    content = str(field_value)
-                
-                section = self.create_info_section(field_title, content, is_text_area)
-                self.content_layout.addWidget(section)
+        # Instruções
+        instructions = self.current_recipe.get('INSTRUCTIONS')
+        if instructions:
+            instructions_content = self.format_list_content(instructions)
+            instructions_section = self.create_info_section("Instruções", instructions_content, is_text_area=True)
+            self.content_layout.addWidget(instructions_section)
         
         # Adiciona um espaçador no final
         self.content_layout.addStretch()

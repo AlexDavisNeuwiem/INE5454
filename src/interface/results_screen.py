@@ -120,7 +120,7 @@ class ResultsScreen(QWidget):
         layout.setContentsMargins(15, 10, 15, 10)
         
         # Título da receita
-        title = recipe_data.get('TITULO', 'Título não disponível')
+        title = recipe_data.get('TITLE', '')
         title_label = QLabel(title)
         title_label.setFont(QFont("Arial", 16, QFont.Bold))
         title_label.setStyleSheet("color: #2c3e50;")
@@ -131,7 +131,7 @@ class ResultsScreen(QWidget):
         info_layout = QHBoxLayout()
         
         # Número da receita
-        numero = recipe_data.get('NUMERO', 'N/A')
+        numero = recipe_data.get('NUMBER', '')
         numero_label = QLabel(f"Receita #{numero}")
         numero_label.setFont(QFont("Arial", 10))
         numero_label.setStyleSheet("color: #7f8c8d;")
@@ -181,11 +181,11 @@ class ResultsScreen(QWidget):
     def update_results(self, search_term, found_recipes):
         """Atualiza a tela com os resultados da pesquisa"""
         self.found_recipes = found_recipes
-        
+
         # Conta receitas por fonte
         source_counts = {}
         for recipe in found_recipes:
-            source = recipe.get('SOURCE', 'Desconhecida')
+            source = recipe.get('SOURCE', '')
             source_counts[source] = source_counts.get(source, 0) + 1
         
         # Monta o título com informações sobre as fontes
@@ -224,9 +224,9 @@ class ResultsScreen(QWidget):
     
     def select_recipe(self, recipe_data):
         """Lida com a seleção de uma receita - abre a tela de detalhes"""
-        title = recipe_data.get('TITULO', 'Receita sem título')
-        numero = recipe_data.get('NUMERO', 'N/A')
-        source = recipe_data.get('SOURCE', 'Desconhecida')
+        title = recipe_data.get('TITLE', '')
+        numero = recipe_data.get('NUMBER', '')
+        source = recipe_data.get('SOURCE', '')
         print(f"Receita selecionada: #{numero} - {title} (Fonte: {source})")
         # Abre os detalhes da receita
         self.main_window.show_recipe_detail(recipe_data)

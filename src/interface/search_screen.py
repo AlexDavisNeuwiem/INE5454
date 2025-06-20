@@ -105,8 +105,8 @@ class SearchScreen(QWidget):
         search_term_lower = search_term.lower()
         
         for recipe in recipes:
-            title = recipe.get('TITULO', '').lower()
-            if search_term_lower in title:
+            title = recipe.get('TITLE', '').lower()
+            if title and (search_term_lower in title):
                 found_recipes.append(recipe)
         
         return found_recipes

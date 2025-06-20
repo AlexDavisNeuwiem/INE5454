@@ -40,8 +40,8 @@ class RecipeTinEats(RecipeScraper):
         self.url = link + '#recipe'
         self.fetch_content()
         title = ''
-        author = '' 
-        prep_time = '' 
+        author = ''
+        prep_time = ''
         ingredients = []
         instructions = []
 

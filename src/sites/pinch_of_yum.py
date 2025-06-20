@@ -16,8 +16,8 @@ class PinchOfYum(RecipeScraper):
                 continue
 
             dados = {
-                'NUMERO': str(receita_nr),
-                'TITULO': titulo.text.strip()
+                'NUMBER': str(receita_nr),
+                'TITLE': titulo.text.strip()
             }
 
             resposta.append(dados)
