@@ -158,7 +158,7 @@ class RecipeDetailScreen(QWidget):
             formatted_items = []
             for i, item in enumerate(content):
                 if item is not None and str(item).strip():
-                    formatted_items.append(f"• {str(item).strip()}")
+                    formatted_items.append(f"{str(item).strip()}")
             result = '\n'.join(formatted_items) if formatted_items else "Não disponível"
             return result
         else:

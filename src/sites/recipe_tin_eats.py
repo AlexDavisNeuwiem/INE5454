@@ -145,6 +145,7 @@ class RecipeTinEats(RecipeScraper):
             print(f'RTE: {page_number}')
             if page_number == 2:
                 break
+            page_number += 1
 
             # Segue para a próxima página      
             self.next_page()
