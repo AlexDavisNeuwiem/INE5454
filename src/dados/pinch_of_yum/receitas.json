@@ -3,288 +3,360 @@
         "NUMBER": "1",
         "TITLE": "Brandon’s Egg Roll Tacos",
         "LINK": "https://pinchofyum.com/egg-roll-tacos",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "20 minutes",
+        "INGREDIENTS": [
+            "1 lb. ground chicken, turkey, or pork\n3 tablespoons soy sauce\n1 tablespoon chili crisp\n1 tablespoon garlic paste (or 2 cloves garlic, grated)\n1 tablespoon ginger paste (or a 1/2-inch piece ginger, grated)\n1 cup shredded cabbage and carrots mix (great time to use a store-bought coleslaw or salad mix, where the base is cabbage)\n6-8 small flour tortillas (I like the Mission Street Taco ones for this)\n2-3 tablespoons avocado oil or toasted sesame oil\nMore fresh cabbage / carrot mix (can use the same bag from before!)\nFresh cilantro or green onion\nChili crisp\nGochujang sauce"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "2",
         "TITLE": "Boursin Appetizer with Pistachios and Honey",
         "LINK": "https://pinchofyum.com/boursin-appetizer-with-pistachios-and-honey",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "5 minutes",
+        "INGREDIENTS": [
+            "one 5.4 ounce wheel of Boursin cheese (I like the garlic herb flavor)\n1/2 cup roasted salted shelled pistachios, chopped or crushed (about 1/4 cup crushed)\n3-4 tablespoons hot honey (affiliate link)\ncrackers or apple slices for dipping"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "3",
         "TITLE": "Thai Shrimp Curry with Yummy Shallot Crispies",
         "LINK": "https://pinchofyum.com/thai-shrimp-curry-with-yummy-shallot-crispies",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "25 minutes",
+        "INGREDIENTS": [
+            "1 tablespoon avocado oil\n2 tablespoons red curry paste\n2 cloves garlic, minced (or 2 teaspoons garlic paste)\n1/2 inch piece ginger, grated (or 1 teaspoon ginger paste)\n2 cups veggies of choice (I use red pepper and green beans - see notes)\none 14-ounce can coconut milk\n1 lb. frozen shrimp, thawed (I like to use jumbo shrimp that are peeled with tails removed)\n1 tablespoon fish sauce\n1 tablespoon brown sugar\n3-4 tablespoons avocado oil\n2 shallots, thinly sliced into rings or strips\n1/2 cup panko breadcrumbs\n1/2 cup chopped cilantro and/or torn Thai basil"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "4",
         "TITLE": "Crispy Buffalo Tofu with Caesar Salad",
         "LINK": "https://pinchofyum.com/crispy-buffalo-tofu",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "17 minutes",
+        "INGREDIENTS": [
+            "16 ounce package of tofu (firm or extra firm)\n2 tablespoons cornstarch\n1 tablespoon soy sauce\n1 tablespoon avocado oil\n1 teaspoon paprika\n1/2 teaspoon garlic powder\n3 tablespoons butter\n1/4 cup hot sauce (like Frank's red hot)\nSalad with Caesar, ranch, or bleu cheese dressing (I especially love to throw this tofu on top of an avocado kale Caesar salad!)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "5",
         "TITLE": "Burger Bowls with House Sauce and Ranch Fries",
         "LINK": "https://pinchofyum.com/burger-bowls-with-house-sauce-and-ranch-fries",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "1 lb. ground beef (85/15 for the juiciest)\n2 teaspoons burger seasoning (one teaspoon per side)\nShredded lettuce\nDiced tomatoes\nDiced burger pickles\n1 22-ounce bag frozen waffle fries\n3 tablespoons butter\n1 1-ounce packet ranch seasoning mix (or 3 tablespoons)\n1/2 cup mayo\n2 tablespoons ketchup\n1 teaspoon horseradish\n1 teaspoon Worcestershire\n1/2 teaspoon paprika\n1 clove grated garlic"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "6",
         "TITLE": "Roasted Red Pepper Pasta",
         "LINK": "https://pinchofyum.com/roasted-red-pepper-pasta",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "1/2 cup roasted red peppers (jarred, drained - 3-5 pieces)\n3/4 cup water\n1/2 teaspoon Better than Bouillon chicken or vegetable broth base\n2 tablespoons butter\n1 large shallot, sliced thinly on a mandoline\n3/4 cup heavy cream\n8 ounces pasta - my favorite is pennoni\n1/2 cup reserved pasta water (optional, as needed)\n1/4 cup Parmesan\nbasil leaves and/or red pepper flakes"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "7",
         "TITLE": "Apricot Chicken with Charred Scallions",
         "LINK": "https://pinchofyum.com/apricot-chicken-with-charred-scallions",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "20 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless, skinless chicken breasts\n1 teaspoon kosher salt + 10 cracks of freshly ground pepper\n1/4 cup toasted sesame oil\n1/4 cup reduced-sodium soy sauce\n10 scallions, sliced in half lengthwise\n1/4 cup apricot preserves\na few tablespoons of chili crisp\nRice\nAny other vegetables - I like cucumbers"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "8",
         "TITLE": "Chipotle Chicken with Chunky Pistachio Sauce",
         "LINK": "https://pinchofyum.com/chipotle-chicken-with-chunky-pistachio-sauce",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless skinless chicken thighs\n2 1/2 - 3 tablespoons taco seasoning (I use Siete Mild Taco Seasoning, a little more than half the packet)\n1/8 teaspoon chipotle powder (spicy! sub 1/4 tsp smoked paprika if you don't want it spicy)\n1 tablespoon olive oil\n1 large avocado, diced (more firm)\n1/2 cup roasted, salted pistachios\n1/2 cup packed cilantro\na small bundle of chives (.5 oz, a full package)\njuice and zest of one lemon\n1 tablespoon olive oil\n1/2 teaspoon kosher salt (more to taste)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "9",
         "TITLE": "Sheet Pan Salmon with Dill Potatoes",
         "LINK": "https://pinchofyum.com/sheet-pan-salmon-with-dill-potatoes",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "45 minutes",
+        "INGREDIENTS": [
+            "24 ounces yukon baby gold potatoes\n1 1/2 tablespoons olive oil\n1 1/2 teaspoon kosher salt\n1/2 cup water\n3 tablespoons butter, melted\n1 clove garlic, grated\n1 tablespoon freeze dried dill, or 3 tablespoons fresh dill\n1.5 pounds salmon filet (I use skin-on)\n3 tablespoons Dijon\n2 tablespoons mayo\nred pepper flakes, more dill, lemon wedge for serving"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "10",
         "TITLE": "The Best Carrot Cake Cupcakes with Cream Cheese Frosting",
         "LINK": "https://pinchofyum.com/best-carrot-cake-cupcakes-with-cream-cheese-frosting",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "40 minutes",
+        "INGREDIENTS": [
+            "3/4 cup canola oil (see notes)\n1 cup packed brown sugar (190 grams)\n1 1/2 teaspoons vanilla\n2 eggs\n2 medium carrots, peeled, grated, and chopped (180 grams - about 1 1/2 cups)\n1 cup + 2 tablespoons flour (160 grams)\n1 teaspoon baking powder\n1/2 teaspoon baking soda\n1 1/4 teaspoon ground cinnamon\n1/4 teaspoon ground ginger (optional)\n3/4 teaspoon salt (I use table salt)\n5 ounces cream cheese, softened\n5 tablespoons butter (I prefer salted butter), softened\n2 1/2 cups powdered sugar\n1 teaspoon vanilla extract"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "11",
         "TITLE": "Crispy Gochujang Chicken",
         "LINK": "https://pinchofyum.com/crispy-gochujang-chicken",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "35 minutes",
+        "INGREDIENTS": [
+            "1 lb. chicken breasts\n1 teaspoon kosher salt and freshly ground pepper to taste\n1/2 cup flour\n2 eggs + 1/2 tablespoon gochujang sauce\n2 cups panko\navocado oil spray\n4 tablespoons butter\n1 clove grated garlic\n1 1/2 tablespoons gochujang sauce (I use Bibigo brand)\nsalt to taste\nYum Yum sauce for dipping (I will never complain about double sauce)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "12",
         "TITLE": "Crispy Chicken Cutlets",
         "LINK": "https://pinchofyum.com/crispy-chicken-cutlets",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "25 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless skinless chicken breasts\n1 teaspoon salt + freshly ground pepper to taste\n1/2 cup flour\n2 eggs, beaten\n1 tablespoon hot sauce like Frank's red hot (a few shakes, optional)\n2 cups panko breadcrumbs\navocado oil spray\nmore salt :)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "1",
         "TITLE": "Ridiculously Good Air Fryer Broccoli",
         "LINK": "https://pinchofyum.com/air-fryer-broccoli",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "9 minutes",
+        "INGREDIENTS": [
+            "one 12-ounce bag broccoli florets (or, one head of broccoli cut into about 3 cups of florets)\n2 tablespoons water\n1-2 tablespoons avocado oil or olive oil\n1 teaspoon coarse kosher salt"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "2",
         "TITLE": "Whipped Feta Spread",
         "LINK": "https://pinchofyum.com/whipped-feta-spread",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "5 minutes",
+        "INGREDIENTS": [
+            "6 ounces feta cheese\n4 ounces cream cheese\n1/4 cup Greek yogurt\n2 tablespoons olive oil + 2 tablespoons water as needed\na clove of fresh garlic\na pinch of fresh or freeze-dried dill (yummy)\na squeeze of lemon juice"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "3",
         "TITLE": "My New Favorite Pizza Has a Cottage Cheese Crust",
         "LINK": "https://pinchofyum.com/my-new-favorite-pizza-has-a-cottage-cheese-crust",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "1 cup cottage cheese\n1 cup flour + a few tablespoons for dusting\n1 teaspoons baking powder\n1 teaspoons coarse kosher salt\n1-2 tablespoons olive oil\n1/4 to 1/3 cup sauce (I've been using Rao's marinara)\n1/3 to 1/2 cup shredded mozzarella cheese\n1/4 to 1/2 cup grated Parmesan cheese"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "4",
         "TITLE": "Mixed Berry Muffins with Sugary Tops",
         "LINK": "https://pinchofyum.com/mixed-berry-muffins-with-sugary-tops",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "3/4 cup coconut oil, melted (see notes)\n1/2 cup brown sugar\n1/4 cup maple syrup\n1/4 cup plain Greek yogurt\n2 eggs\n1 1/2 teaspoons vanilla\n2 cups flour (280 grams)\n2 1/2 teaspoons baking powder\n1/2 teaspoon baking soda\n1 teaspoon fine kosher salt (such as Diamond Crystal)\n2 cups frozen mixed berries (I use the triple berry blend from Costco)\n1/4 cup turbinado sugar for topping (brown sugar also works)\n4 tablespoons softened salted butter\n1/4 cup honey"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "5",
         "TITLE": "Sweet Potato Soup with Roasted Cauliflower Crumbles",
         "LINK": "https://pinchofyum.com/sweet-potato-soup-with-roasted-cauliflower-crumbles",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "1 hour 5 minutes",
+        "INGREDIENTS": [
+            "1 red onion, cut into large chunks or slices\n3 sweet potatoes, cut into chunks (about 6 cups)\n2 tablespoons avocado oil or olive oil\n1 teaspoon coarse kosher salt\n6 cups vegetable broth (see notes)\n1/2 inch knob of fresh ginger\n1/2 cup macadamia nuts or cashews\n4-6 cups cauliflower florets\na small bundle of chives, chopped\nlemon wedges\na drizzle of infused oil (I like a spicy chili oil)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "6",
         "TITLE": "French Toast Crepes",
         "LINK": "https://pinchofyum.com/french-toast-crepes",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "15 minutes",
+        "INGREDIENTS": [
+            "3 eggs\n1 tablespoon maple syrup\n1-2 tablespoons of heavy cream\ndash of cinnamon\n7-10 almond flour tortillas (I love the Siete ones!)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "7",
         "TITLE": "Buffalo Chicken Burgers with Whipped Feta Spread",
         "LINK": "https://pinchofyum.com/buffalo-chicken-burgers-with-whipped-feta-spread",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "25 minutes",
+        "INGREDIENTS": [
+            "1 lb. ground chicken\n1/2 cup panko breadcrumbs\n1/3 cup hot sauce (I used Frank's Red Hot)\n1/2 teaspoon garlic powder\n1/2 teaspoon salt\n6 ounces feta cheese (block or crumbles)\n4 ounces cream cheese\n1/4 cup Greek yogurt\n2 tablespoons olive oil\n2 tablespoons water\n2 tablespoons melted butter + 2 tablespoons hot sauce for brushing\nBuns\nLettuce"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "8",
         "TITLE": "Crockpot Chicken Bowls with Yellow Rice and Cilantro Pesto",
         "LINK": "https://pinchofyum.com/crockpot-chicken-bowls-with-yellow-rice-and-cilantro-pesto",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "3 hours 20 minutes",
+        "INGREDIENTS": [
+            "1 lb. chicken breasts\n8 ounces of a simmer sauce or enchilada sauce that you like (see notes for my recs)\n1 tablespoon cornstarch whisked into 1-2 tablespoons water\nextra seasoning to taste - I often add a few shakes of chipotle powder, salt, and pepper\n1 cup white rice\n1 1/2 cups water\n1 tablespoon butter\n1/2 teaspoon salt\n1/2 teaspoon chili powder\n1/8 teaspoon turmeric\n1 1/2 cups cilantro leaves\n1/2 jalapeño, ribs and seeds removed\n1 clove garlic\njuice and zest of 1 lime\n1/4 cup olive oil or avocado oil\n1/2 cup roasted salted pistachios\nPickled onions (a must for me, every time)\nSour cream and/or your favorite salsa (see notes)\nA salad mix"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "9",
         "TITLE": "Cilantro Pesto",
         "LINK": "https://pinchofyum.com/cilantro-pesto",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "10 minutes",
+        "INGREDIENTS": [
+            "1 bunch cilantro (1.5 - 2 cups - I just cut the top off of the bunch that I buy from the store)\n1/2 jalapeño, ribs and seeds removed\n1 clove garlic\njuice and zest of 1 lime\n1/4 cup olive oil or avocado oil\n1/2 cup roasted salted pistachios\nsalt to taste"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "10",
         "TITLE": "Thai Peanut Chicken Bowls",
         "LINK": "https://pinchofyum.com/thai-peanut-chicken-bowls",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "45 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless skinless chicken breasts or thighs, cut into thin slices\n8-ounce jar Thai peanut satay sauce (from Trader Joe's)\n1 clove grated garlic\n2 cups thinly sliced cucumber (1 large English cucumber)\n1/2 cup thinly sliced red onion (about 1/4 an onion)\n2 tablespoons avocado oil\n1 tablespoon vinegar\nsalt and sugar to taste\n4 ounces vermicelli noodles\na few tablespoons of crushed peanuts\na few sprigs of herbs - I like mint, cilantro, and basil because I'm an herb hog!"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "11",
         "TITLE": "Gingery Cranberry Salsa",
         "LINK": "https://pinchofyum.com/gingery-cranberry-salsa",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "10 minutes",
+        "INGREDIENTS": [
+            "1 12-ounce bag of fresh cranberries\n1/3 cup sugar\nhalf of a jalapeño, ribs and seeds removed (see notes)\none 1-inch knob of fresh ginger root, peeled\n1 clove garlic\n1/2 cup fresh cilantro leaves\n1/2 cup fresh parsley leaves\njuice and zest of 1-2 limes (to taste)\n1/2 teaspoon salt (more to taste)\n1/2 cup salted roasted pistachios (optional)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "12",
         "TITLE": "Deb’s Ranch Crackers",
         "LINK": "https://pinchofyum.com/debs-ranch-crackers",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "25 minutes",
+        "INGREDIENTS": [
+            "1 bag of oyster crackers (9-10 ounces)\n1 packet of ranch seasoning (I use the 1-ounce packet of Hidden Valley ranch)\n1/2 cup vegetable oil, or 1/2 cup butter, melted and cooled (see notes)\n1 teaspoon dried dill (2 teaspoons if you love dill like I do)"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "1",
         "TITLE": "Dulce De Leche Tiramisu",
         "LINK": "https://pinchofyum.com/dulce-de-leche-tiramisu",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "6 egg yolks\n3/4 cup granulated sugar\n1 1/2 cups mascarpone (see notes)\n1 1/2 cups heavy cream\n1/4 cup + 2 tablespoons dulce de leche (I use this canned dulce de leche, which I buy at Target or Cub Foods)\npinch of salt to taste\ntwo 4.4-ounce boxes of soft ladyfingers (I am very loyal to St. Michel soft ladyfingers - absolutely perfect with a little sugar crunch on top)\n2 cups strong coffee or espresso (can be decaf but highly recommend that it is rich, dark, and strong)\n1/2 cup cocoa powder\nchocolate bar for shaving / topping"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "2",
         "TITLE": "Lemon Rosemary Chicken Soup",
         "LINK": "https://pinchofyum.com/lemon-rosemary-chicken-soup",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "40 minutes",
+        "INGREDIENTS": [
+            "1/4 cup olive oil, divided\nhalf an onion, finely chopped\n3 carrots, finely chopped\n3 ribs celery, finely chopped\n3 cloves garlic, minced\n1/2 teaspoon Italian seasoning\n2 sprigs fresh rosemary and/or 2 sprigs fresh thyme\n1 teaspoon coarse kosher salt\n1 can cannellini or navy beans, rinsed and drained\n3 cups shredded kale\n2-3 cups cooked shredded chicken or turkey (see notes)\n5 cups chicken broth (I like the Better Than Bouillon broth base, or bone broth)\njuice of two lemons\nsalt and pepper to taste\ngrated Parmesan, bread, and butter for serving"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "3",
         "TITLE": "Brussels Sprouts with Gochujang Butter",
         "LINK": "https://pinchofyum.com/brussels-sprouts-with-gochujang-butter",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "30 minutes",
+        "INGREDIENTS": [
+            "12 ounces shaved brussels sprouts\n1 tablespoon avocado or olive oil\n1/4 teaspoon salt\n3/4 cup walnuts, roughly chopped\n1/4 cup dried cranberries\n4 tablespoons salted butter, softened\n1 1/2 tablespoons gochujang sauce, like this one (Bibigo)\n2 teaspoons toasted sesame oil\n2 teaspoons brown sugar (optional)\n1 small clove garlic, grated\n1/2 teaspoon soy sauce"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "4",
         "TITLE": "Incredible Arancini",
         "LINK": "https://pinchofyum.com/incredible-arancini",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "1 hour 45 minutes",
+        "INGREDIENTS": [
+            "4 tablespoons butter, divided\nhalf of a yellow onion, finely diced\n4 garlic cloves, thinly sliced or minced\n1 cup arborio rice (DeLallo is the best!)\n1 teaspoon kosher salt\n1/2 cup dry white wine\n3 1/2 cups chicken broth, warmed (see notes)\n1 cup grated Parmesan cheese\na bit of lemon zest (1-2 teaspoons)\n1/4 cup heavy cream\npepper to taste\na block of low moisture Mozzarella cheese, cut into small cubes\n2 cups panko, crushed in a food processor (optional on the crushing but it makes for a finer crisp)\n1/2 cup flour\n2 eggs, whisked\nvegetable oil or canola oil for frying\nYour favorite store-bought tomato sauce, or arrabbiata sauce for something spicy."
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "5",
         "TITLE": "Bang Bang Salmon with Avocado Cucumber Salsa",
         "LINK": "https://pinchofyum.com/bang-bang-salmon-with-avocado-cucumber-salsa",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "22 minutes",
+        "INGREDIENTS": [
+            "1 1/2 pounds salmon filet\n1-2 tablespoons all-purpose seasoning mix (this is the one I use - see notes for homemade)\n1/4 cup mayo\n2 tablespoons sweet chili sauce\n1 clove garlic, grated\n1 teaspoon soy sauce\nchili crisp for topping\nCooked rice\nSome kind of vegetable - I like a little avocado cucumber salsa which you can find in the notes below!"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "6",
         "TITLE": "Scallion Pancake with Eggs",
         "LINK": "https://pinchofyum.com/scallion-pancake-with-eggs",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "10 minutes",
+        "INGREDIENTS": [
+            "1 scallion pancake\na spritz of avocado oil, or a small pat of butter\n1 handful of spinach\n1-2 eggs\nsalt and pepper\nhalf an avocado\nchili crisp to taste"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "7",
         "TITLE": "Homemade Alfredo Sauce",
         "LINK": "https://pinchofyum.com/homemade-alfredo-sauce",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "12 minutes",
+        "INGREDIENTS": [
+            "1/2 cup butter\n3 cloves garlic\n1/2 cup chicken or vegetable broth\n1 cup heavy cream\n1 cup finely grated Parmesan cheese\nsalt and pepper to taste\nPasta of choice! I love this with DeLallo fettuccine or egg pappardelle - this amount of sauce works well with about 8 ounces of pasta"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "8",
         "TITLE": "Sticky Gochujang Tofu with Herbs and Peanuts",
         "LINK": "https://pinchofyum.com/sticky-gochujang-tofu-with-herbs-and-peanuts",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "40 minutes",
+        "INGREDIENTS": [
+            "1 16-ounce block extra firm tofu - ideally the kind that comes vacuum-packed\n1 tablespoon avocado oil\n2 teaspoons cornstarch\n1/2 teaspoon kosher salt, and pepper to taste\n3 tablespoons gochujang sauce (see note 1)\n2 tablespoons sesame oil\n2 tablespoons soy sauce\n2 tablespoons peanut butter\n1 teaspoon garlic powder\n1-2 tablespoons water as needed\nRice\nCilantro, green onion, and/or peanuts as a garnish\nCucumber, or other veggies for the bowl"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "9",
         "TITLE": "Ridiculously Good Chicken Tacos with Green Sauce",
         "LINK": "https://pinchofyum.com/chicken-tacos",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "22 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless skinless chicken thighs\n1/2 tablespoon soy sauce\n1/2 tablespoon avocado oil\n1 clove garlic, grated (or 1 tsp of garlic paste, or 1/2 teaspoon garlic powder)\n2-3 tablespoons taco seasoning (I use Siete brand)\n1/2 avocado\n1/2 cup mayo\n3-ounce chunk of cotjia cheese\n1 big handful of cilantro stems and leaves (roughly 1/2 cup)\n1 clove garlic\njuice of 1-2 limes (2 tablespoons)\n2 tablespoons water (more as needed)\nTortillas\nLimes, cilantro, and onion for topping"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "10",
         "TITLE": "Garlic and Black Pepper Beef Skewers",
         "LINK": "https://pinchofyum.com/garlic-and-black-pepper-beef-skewers",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "20 minutes",
+        "INGREDIENTS": [
+            "lbs. skirt steak, cut against the grain into very thin strips (see photos and video)\n1 tablespoon soy sauce\n1 tablespoon garlic paste\n1 tablespoon ginger paste\n1 teaspoon coarse kosher salt\n1 teaspoons granulated sugar\n1 teaspoon curry powder\nfreshly cracked black pepper\nfish sauce, lime juice, chili crisp, and cilantro for topping\nrice\nbroccoli, bagged salad, or a quick cucumber salad, see notes!"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "11",
         "TITLE": "Chicken with Coconut Kale",
         "LINK": "https://pinchofyum.com/chicken-with-coconut-kale",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "25 minutes",
+        "INGREDIENTS": [
+            "1 lb. boneless skinless chicken breasts, cut or pounded into thin pieces\n2-3 tablespoons all-purpose chicken seasoning (I use the McCormick Rotisserie Chicken Seasoning)\n1 1/2 tablespoons avocado oil (divided)\n1 shallot, thinly sliced\n2-3 cups finely shredded curly kale, stems removed (about 3-4 stalks)\n1 tablespoon yellow curry paste (see notes for subs)\n1 can full-fat coconut milk\n1 tablespoon soy sauce\n1 tablespoon brown sugar\nrice\nchili crisp or cilantro for garnish"
+        ],
+        "INSTRUCTIONS": []
     },
     {
         "NUMBER": "12",
         "TITLE": "Ricotta Meatballs with the Crispy Topping",
         "LINK": "https://pinchofyum.com/ricotta-meatballs-with-the-crispy-topping",
-        "PREP_TIME": "",
-        "INGREDIENTS": "",
-        "INSTRUCTIONS": ""
+        "PREP_TIME": "40 minutes",
+        "INGREDIENTS": [
+            "1 lb. ground turkey (I used 93/7 ground turkey - ground chicken also works, as does just about any other type of ground meat that you like!)\n1/2 cup full-fat ricotta cheese\n1/2 cup Parmesan cheese\n1/2 cup panko \n1 teaspoon garlic powder\n1 teaspoon salt\n1/2 teaspoon Italian seasoning\n1 jar tomato sauce (like a marinara or pasta sauce - I like a lot of sauce so I typically use a 28-32 ounce jar)\n1/4 cup panko\n1/4 cup Parmesan cheese\n2 teaspoons olive oil\nchopped parsley"
+        ],
+        "INSTRUCTIONS": []
     }
 ]

@@ -76,7 +76,6 @@ class RecipeTinEats(RecipeScraper):
             itens_li = grupo.find_all('li', class_='wprm-recipe-ingredient')
             
 
-            # --- PASSO 4: Loop Interno (para cada item/linha de ingrediente) ---
             for item in itens_li:
                 # Extrai a quantidade
                 amount_tag = item.find("span", class_="wprm-recipe-ingredient-amount")
@@ -85,17 +84,16 @@ class RecipeTinEats(RecipeScraper):
                 name_tag = item.find("span", class_="wprm-recipe-ingredient-name")
                 name = name_tag.text.strip() if name_tag else ""
                 
-                # Junta tudo em uma string bonita e adiciona à lista do grupo
+                # Junta tudo em uma string e adiciona à lista do grupo
                 ingrediente_completo = f"{amount} {name}".strip()
                 if ingrediente_completo: # Só adiciona se não estiver vazio
                     ingredientes_do_grupo.append(ingrediente_completo)
 
-            # Adiciona a lista de ingredientes deste grupo ao nosso dicionário principal
+            # Adiciona a lista de ingredientes deste grupo dicionário principal
             ingredientes_do_grupo_str = ', '.join(ingredientes_do_grupo)
             if ingredientes_do_grupo_str != "":
                 ingredients.append(ingredientes_do_grupo_str)
             
-        # --- EXTRACTION OF INSTRUCTIONS ---
         grupos_de_instrucoes = recipe_html[0].select("ul", class_="wprm-recipe-instruction-group")
         for i, grupo in enumerate(grupos_de_instrucoes):
             # Lista para guardar as instruções apenas DESTE grupo
@@ -103,7 +101,6 @@ class RecipeTinEats(RecipeScraper):
 
             itens_li = grupo.find_all('li', class_='wprm-recipe-instruction')
             
-            # --- Loop Interno (para cada item/linha de instrução) ---
             for item in itens_li:
                 # Extrai o texto da instrução
                 instruction_text_tag = item.find("div", class_="wprm-recipe-instruction-text")
@@ -113,7 +110,7 @@ class RecipeTinEats(RecipeScraper):
                 if instruction_text: # Só adiciona se não estiver vazio
                     instrucoes_do_grupo.append(instruction_text)
 
-            # Adiciona a lista de instruções deste grupo ao nosso dicionário principal
+            # Adiciona a lista de instruções deste grupo dicionário principal
             instrucoes_do_grupo_str = ', '.join(instrucoes_do_grupo)
             if instrucoes_do_grupo_str != "":
                 instructions.append(instrucoes_do_grupo_str)
@@ -122,7 +119,7 @@ class RecipeTinEats(RecipeScraper):
         
     def run(self):
         finish = True
-        numero_pagina_int = 0
+        page_number = 0
 
         # Percorre as URLs procurando por receitas
         while(finish):
@@ -143,17 +140,20 @@ class RecipeTinEats(RecipeScraper):
                 recipe['INSTRUCTIONS'] = instructions
             self.url = url_tmp
             self.recipes.extend(recipe_list)
-            print(f'RTE: {numero_pagina_int}')
-            
-            if numero_pagina_int == 2:
+
+            # TODO: Remover
+            print(f'RTE: {page_number}')
+            if page_number == 2:
                 break
 
-            
             # Segue para a próxima página      
-            url_base, numero_pagina_str = self.url.split('=')
-            numero_pagina_int = int(numero_pagina_str) + 1
-            self.url = f"{url_base}={numero_pagina_int}"
+            self.next_page()
 
             
         # Salva o arquivo json
         self.save_json(self.recipes)
+
+    def next_page(self):   
+        url_base, page_number_str = self.url.split('=')
+        page_number_int = int(page_number_str) + 1
+        self.url = f"{url_base}={page_number_int}"
