@@ -1,7 +1,7 @@
 from enum import Enum
 
 class URLs(Enum):
-    PINCH_OF_YUM = "https://pinchofyum.com/recipes/dessert"
+    PINCH_OF_YUM = "https://pinchofyum.com/recipes/all"
     POY_OUTPUT_DIR = "src/dados/pinch_of_yum/"
 
     RECIPE_TIN_EATS = "https://www.recipetineats.com/recipes/?fwp_paged=1"

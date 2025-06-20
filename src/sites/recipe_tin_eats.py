@@ -143,7 +143,7 @@ class RecipeTinEats(RecipeScraper):
                 recipe['INSTRUCTIONS'] = instructions
             self.url = url_tmp
             self.recipes.extend(recipe_list)
-            print(numero_pagina_int)
+            print(f'RTE: {numero_pagina_int}')
             
             if numero_pagina_int == 2:
                 break
