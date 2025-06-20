@@ -11,13 +11,19 @@ class PinchOfYum(RecipeScraper):
             titulo = receita.find("h3", {
                 "class": "font-domaine text-2xl normal-case tracking-normal leading-tighter text-black"
             })
+            link_tag = receita.find("a", class_="block md:hover:opacity-60 space-y-2")
 
-            if not titulo:
-                continue
 
+            if link_tag:
+                link = link_tag.get('href', '')
+                print(link)
             dados = {
                 'NUMBER': str(receita_nr),
-                'TITLE': titulo.text.strip()
+                'TITLE': titulo.text.strip(),
+                'LINK': link,
+                'PREP_TIME': '',
+                'INGREDIENTS': '',
+                'INSTRUCTIONS': ''
             }
 
             resposta.append(dados)
@@ -46,9 +52,8 @@ class PinchOfYum(RecipeScraper):
 
             # url_tmp = self.url
             # for recipe in recipe_list:
-            #     title, author, prep_time, ingredients, instructions = self.extract_details(recipe['LINK'])
+            #     title, prep_time, ingredients, instructions = self.extract_details(recipe['LINK'])
             #     recipe['TITLE'] = title
-            #     recipe['AUTHOR'] = author
             #     recipe['PREP_TIME'] = prep_time
             #     recipe['INGREDIENTS'] = ingredients
             #     recipe['INSTRUCTIONS'] = instructions

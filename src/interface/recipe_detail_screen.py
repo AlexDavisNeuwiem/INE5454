@@ -183,9 +183,10 @@ class RecipeDetailScreen(QWidget):
         self.content_layout.addWidget(numero_section)
         
         # Autor
-        author = self.current_recipe.get('AUTHOR')
-        author_section = self.create_info_section("Autor", author)
-        self.content_layout.addWidget(author_section)
+        author = self.current_recipe.get('AUTHOR', '')
+        if author:
+            author_section = self.create_info_section("Autor", author)
+            self.content_layout.addWidget(author_section)
         
         # Tempo de preparo
         prep_time = self.current_recipe.get('PREP_TIME')
