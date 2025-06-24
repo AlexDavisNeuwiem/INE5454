@@ -73,31 +73,26 @@ class PinchOfYum(RecipeScraper):
          
             if ingredientes_do_grupo:
                 ingredients.append('\n'.join(ingredientes_do_grupo))
-             
 
-        # grupos_de_instrucoes = recipe_html[0].select("ul", class_="wprm-recipe-instruction-group")
-        # for i, grupo in enumerate(grupos_de_instrucoes):
-        #     # Lista para guardar as instruções apenas DESTE grupo
-        #     instrucoes_do_grupo = []
 
-        #     itens_li = grupo.find_all('li', class_='wprm-recipe-instruction')
-            
-        #     # --- Loop Interno (para cada item/linha de instrução) ---
-        #     for item in itens_li:
-        #         # Extrai o texto da instrução
-        #         instruction_text_tag = item.find("div", class_="wprm-recipe-instruction-text")
-        #         instruction_text = instruction_text_tag.text.strip() if instruction_text_tag else ""
-                
-        #         # Adiciona à lista do grupo se não estiver vazio
-        #         if instruction_text: # Só adiciona se não estiver vazio
-        #             instrucoes_do_grupo.append(instruction_text)
 
-        #     # Adiciona a lista de instruções deste grupo ao nosso dicionário principal
-        #     instrucoes_do_grupo_str = ', '.join(instrucoes_do_grupo)
-        #     if instrucoes_do_grupo_str != "":
-        #         instructions.append(instrucoes_do_grupo_str)
 
-        return prep_time, ingredients, instructions
+
+        instruction_group = recipe_html[0].select("div", class_= "tasty-recipes-instructions")
+        # print(f'INSTRUCTION GROUP: {instruction_group}')
+        for i, grupo in enumerate(instruction_group):
+            grupos_de_instrucoes = []
+            instruction_div = grupo.select("li", id=re.compile("^instruction-step-"))
+
+            for instruction_item in instruction_div:
+                # print(f'INSTRUCTION ITEM: {instruction_item.text.strip()}')
+
+                grupos_de_instrucoes.append(instruction_item.get_text(strip=True))
+         
+            if grupos_de_instrucoes:
+                instructions.append(grupos_de_instrucoes)
+
+        return prep_time, ingredients, instructions[4]
         
 
     def run(self):
@@ -113,7 +108,7 @@ class PinchOfYum(RecipeScraper):
                 self.fetch_content()
             except:
                 print(f"Página {page_number} foi bloqueada!")
-                self.next_page(page_number)
+                self.next_page()
                 if page_number == 3:
                     break
                 continue
@@ -139,14 +134,14 @@ class PinchOfYum(RecipeScraper):
                 break
             
             # Segue para a próxima página      
-            self.next_page(page_number)
+            self.next_page()
             page_number += 1
             
         # Salva o arquivo json
         self.save_json(self.recipes)
 
-    def next_page(self, page_number):
-        if page_number == 1:
+    def next_page(self):
+        if "/page/" not in self.url:
             self.url += "/page/1"
         url_base, page_number_str = self.url.split('/page/')
         page_number_int = int(page_number_str) + 1
