@@ -1,202 +1,50 @@
 [
-    {
-        "NUMERO": "1",
-        "TITULO": "Easy Pizza Muffins"
-    },
-    {
-        "NUMERO": "2",
-        "TITULO": "Peanut Butter & Jelly Panini"
-    },
-    {
-        "NUMERO": "3",
-        "TITULO": "Chorizo & Egg Burritos"
-    },
-    {
-        "NUMERO": "4",
-        "TITULO": "Bow Tie Pepperoni Pasta Salad"
-    },
-    {
-        "NUMERO": "5",
-        "TITULO": "Veggie Delight Sandwich"
-    },
-    {
-        "NUMERO": "6",
-        "TITULO": "Classic BLT Sandwich"
-    },
-    {
-        "NUMERO": "7",
-        "TITULO": "Microwave Salmon Fillets"
-    },
-    {
-        "NUMERO": "8",
-        "TITULO": "Simple Pasta Toss"
-    },
-    {
-        "NUMERO": "9",
-        "TITULO": "Baked Pesto Chicken"
-    },
-    {
-        "NUMERO": "10",
-        "TITULO": "Club Wrap"
-    },
-    {
-        "NUMERO": "11",
-        "TITULO": "Baked Chicken Tenders"
-    },
-    {
-        "NUMERO": "12",
-        "TITULO": "Easy Pizza Soup"
-    },
-    {
-        "NUMERO": "13",
-        "TITULO": "Hot Molten Blobs"
-    },
-    {
-        "NUMERO": "14",
-        "TITULO": "Easy Enchiladas"
-    },
-    {
-        "NUMERO": "15",
-        "TITULO": "Egg Salad on English Muffin"
-    },
-    {
-        "NUMERO": "16",
-        "TITULO": "Portobello Pizzas"
-    },
-    {
-        "NUMERO": "17",
-        "TITULO": "Quick Chicken & Rice"
-    },
-    {
-        "NUMERO": "18",
-        "TITULO": "Hummus Pizza"
-    },
-    {
-        "NUMERO": "19",
-        "TITULO": "Chicken Breast With Honey-Balsamic Glaze"
-    },
-    {
-        "NUMERO": "20",
-        "TITULO": "5-Ingredient Spaghetti"
-    },
-    {
-        "NUMERO": "21",
-        "TITULO": "Microwave Lemony Waldorf Fish Fillets"
-    },
-    {
-        "NUMERO": "22",
-        "TITULO": "Healthy Egg Salad Sandwich"
-    },
-    {
-        "NUMERO": "23",
-        "TITULO": "Quick & Delicious Goat Cheese Salad"
-    },
-    {
-        "NUMERO": "24",
-        "TITULO": "Lunchbox Pizza Quesadilla"
-    },
-    {
-        "NUMERO": "25",
-        "TITULO": "Microwave Garlic Prawns"
-    },
-    {
-        "NUMERO": "26",
-        "TITULO": "Ground Beef & Potatoes"
-    },
-    {
-        "NUMERO": "27",
-        "TITULO": "My Favorite Spinach Salad"
-    },
-    {
-        "NUMERO": "28",
-        "TITULO": "Pizza Scrolls"
-    },
-    {
-        "NUMERO": "29",
-        "TITULO": "Cheesy Turkey Burger"
-    },
-    {
-        "NUMERO": "30",
-        "TITULO": "Creamy Italian Pasta Salad"
-    },
-    {
-        "NUMERO": "31",
-        "TITULO": "Tomato & Egg Muffin"
-    },
-    {
-        "NUMERO": "32",
-        "TITULO": "Easy Pita Bread Pizza"
-    },
-    {
-        "NUMERO": "33",
-        "TITULO": "Grilled Chicken Flatbread Pizzas"
-    },
-    {
-        "NUMERO": "34",
-        "TITULO": "Quick & Easy Tuna Salad Sandwich for Kids"
-    },
-    {
-        "NUMERO": "35",
-        "TITULO": "Easy Roast Beef Wrap"
-    },
-    {
-        "NUMERO": "36",
-        "TITULO": "Cheese-Tomato Melt"
-    },
-    {
-        "NUMERO": "37",
-        "TITULO": "Healthy Sandwich"
-    },
-    {
-        "NUMERO": "38",
-        "TITULO": "Buffalo Chicken Wrap in a Snap"
-    },
-    {
-        "NUMERO": "39",
-        "TITULO": "Grilled Peanut Butter & Jelly Sandwich"
-    },
-    {
-        "NUMERO": "40",
-        "TITULO": "Hummus Vegetable Sandwich"
-    },
-    {
-        "NUMERO": "41",
-        "TITULO": "Italian Saucy Sausage Sub"
-    },
-    {
-        "NUMERO": "42",
-        "TITULO": "Cheater's Chicken Noodle Soup"
-    },
-    {
-        "NUMERO": "43",
-        "TITULO": "Ground Chicken Ranch Burger"
-    },
-    {
-        "NUMERO": "44",
-        "TITULO": "Snack Stackers"
-    },
-    {
-        "NUMERO": "45",
-        "TITULO": "Yummy Grilled Tuna & Cheese Sandwiches"
-    },
-    {
-        "NUMERO": "46",
-        "TITULO": "Mushroom Quesadilla"
-    },
-    {
-        "NUMERO": "47",
-        "TITULO": "Boston Fenway Franks"
-    },
-    {
-        "NUMERO": "48",
-        "TITULO": "Apple-Cheddar Panini"
-    },
-    {
-        "NUMERO": "49",
-        "TITULO": "California Rollwich for Kids"
-    },
-    {
-        "NUMERO": "50",
-        "TITULO": "Chunky Chicken Nachos"
-    }
+    "https://www.food.com/recipe/bourbon-chicken-45809",
+    "https://www.food.com/recipe/best-banana-bread-2886",
+    "https://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
+    "https://www.food.com/recipe/crock-pot-chicken-with-black-beans-cream-cheese-89204",
+    "https://www.food.com/recipe/creamy-cajun-chicken-pasta-39087",
+    "https://www.food.com/recipe/oatmeal-raisin-cookies-35813",
+    "https://www.food.com/recipe/best-ever-banana-cake-with-cream-cheese-frosting-67256",
+    "https://www.food.com/recipe/yes-virginia-there-is-a-great-meatloaf-54257",
+    "https://www.food.com/recipe/ice-cubes-420398",
+    "https://www.food.com/recipe/pancakes-25690",
+    "https://www.food.com/recipe/beer-bread-73440",
+    "https://www.food.com/recipe/kittencals-italian-melt-in-your-mouth-meatballs-69173",
+    "https://www.food.com/recipe/japanese-mums-chicken-68955",
+    "https://www.food.com/recipe/creamy-burrito-casserole-33919",
+    "https://www.food.com/recipe/kittencals-moist-cheddar-garlic-oven-fried-chicken-breast-82102",
+    "https://www.food.com/recipe/banana-banana-bread-25885",
+    "https://www.food.com/recipe/oven-fried-chicken-chimichangas-28148",
+    "https://www.food.com/recipe/simply-sour-cream-chicken-enchiladas-129926",
+    "https://www.food.com/recipe/fannie-farmers-classic-baked-macaroni-cheese-135350",
+    "https://www.food.com/recipe/southern-buttermilk-biscuits-26110",
+    "https://www.food.com/recipe/soft-snickerdoodle-cookies-97496",
+    "https://www.food.com/recipe/paneras-cream-cheese-potato-soup-150863",
+    "https://www.food.com/recipe/crock-pot-whole-chicken-33671",
+    "https://www.food.com/recipe/delicious-chicken-pot-pie-10744",
+    "https://www.food.com/recipe/petes-scratch-pancakes-5170",
+    "https://www.food.com/recipe/olive-garden-copycat-zuppa-toscana-38298",
+    "https://www.food.com/recipe/crock-pot-cream-cheese-chicken-12458",
+    "https://www.food.com/recipe/chicken-lazone-65768",
+    "https://www.food.com/recipe/fudge-crinkles-a-great-4-ingredient-cake-mix-cookie-32614",
+    "https://www.food.com/recipe/pork-chops-yum-yum-95222",
+    "https://www.food.com/recipe/the-best-brownies-54225",
+    "https://www.food.com/recipe/mexican-rice-117892",
+    "https://www.food.com/recipe/kittencals-5-minute-cinnamon-flop-brunch-cake-77397",
+    "https://www.food.com/recipe/greek-potatoes-oven-roasted-and-delicious-87782",
+    "https://www.food.com/recipe/chicken-tortilla-soup-ii-4627",
+    "https://www.food.com/recipe/better-than-olive-garden-alfredo-sauce-141983",
+    "https://www.food.com/recipe/the-best-chili-you-will-ever-taste-73166",
+    "https://www.food.com/recipe/reeses-squares-5-ingredients-no-bake-reeses-29679",
+    "https://www.food.com/recipe/absolute-best-ever-lasagna-28768",
+    "https://www.food.com/recipe/spinach-artichoke-dip-1209",
+    "https://www.food.com/recipe/peach-cobbler-31901",
+    "https://www.food.com/recipe/easy-stove-top-macaroni-cheese-60350",
+    "https://www.food.com/recipe/the-sweetest-blueberry-muffins-50719",
+    "https://www.food.com/recipe/the-most-wonderful-gingerbread-cookies-80156",
+    "https://www.food.com/recipe/crumb-topped-banana-muffins-43509",
+    "https://www.food.com/recipe/chinese-fried-rice-38748",
+    "https://www.food.com/recipe/wonderful-salsa-9272",
+    "https://www.food.com/recipe/dark-chocolate-cake-2496"
 ]
