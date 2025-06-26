@@ -13,58 +13,46 @@ class Food(RecipeScraper):
             return [], False
 
         for receita in receitas_html:
-            #print(f'URL: {receita}')
             data = json.loads(receita)
             items = data.get('itemListElement', [])
             for item in items:
                 url = item.get('url')
                 if url:
                     resposta.append(url)
-        print(resposta)
-
-
-
-
-
-        # script = receitas_html.select('script[type="application/ld+json"]')
-        # print(receitas_html)
-        # for receita in receitas_html:
-        #     div2 = receita.find("div", class_="tile-stream clearfix fdStream")
-        #     # print(f'DIV2: {div2}')
-        #     if div2:
-        #         details = div2.select("div", class_="details")
-        #         # print(details)
-        #         div_title = details.select("div", class_="title")
-        #         print(f'DIV_TITLE: {div_title}')
-            # if div2:
-            #     receita_tag = div2.select_one("h2", class_ = "title")
-            #     print(f'RECEITA_TAG: {receita_tag}')
-            #     titulo = receita_tag.get("title", "")
-
-
-            # print(f'LINK_TAG: {titulo}')
-
-            # if link_tag:
-            #     # Extraindo o título e o link
-            #     title = link_tag.text.strip()
-            #     link = link_tag.get('href', '')
-
-            
-            # self.recipes_num += 1
-
-            # dados = {
-            #     'NUMBER': self.recipes_num,
-            #     'TITLE': "title",
-            #     'LINK': "link",
-            #     'AUTHOR': '',
-            #     'PREP_TIME': '',
-            #     'INGREDIENTS': '',
-            #     'INSTRUCTIONS': ''
-            # }
-
-            # resposta.append(dados)
 
         return resposta, True
+
+    def extract_details(self, link):
+        self.url = link
+        self.fetch_content()
+
+        result = {
+            'TITLE': '',
+            'AUTHOR': '',
+            'PREP_TIME': '',
+            'INGREDIENTS': [],
+            'INSTRUCTIONS': []
+        }
+
+        recipe_html = self.soup.find_all("div", class_="current-recipe")
+
+        title= recipe_html[0].select_one("div", class_="layout__item title svelte-ar8gac")
+        print(f"TÍTULO = {title}")
+
+        author = recipe_html[0].select_one("div", class_="byline svelte-176rmbi")
+        print(f"AUTOR = {author}")
+
+        prep = recipe_html[0].select_one("dd", class_="facts__value svelte-ar8gac")
+        print(f"PREPARO = {prep.text.strip()}")
+
+        ingr = recipe_html[0].select_one("section", class_="layout__item ingredients svelte-ar8gac")
+        print(f"INGREDIENTES = {ingr}")
+
+        inst = recipe_html[0].select_one("section", class_="layout__item directions svelte-ar8gac")
+        print(f"INSTRUÇÕES = {inst}")
+
+        return result
+
 
     def run(self):
             finish = True
@@ -79,16 +67,9 @@ class Food(RecipeScraper):
                 # Extrai as receitas do site
                 recipe_list, finish = self.extract_recipes()
 
-                # url_tmp = self.url
-                # for recipe in recipe_list:
-                #     title, author, prep_time, ingredients, instructions = self.extract_details(recipe['LINK'])
-                #     recipe['TITLE'] = title
-                #     recipe['AUTHOR'] = author
-                #     recipe['PREP_TIME'] = prep_time
-                #     recipe['INGREDIENTS'] = ingredients
-                #     recipe['INSTRUCTIONS'] = instructions
-                # self.url = url_tmp
-                self.recipes.extend(recipe_list)
+                for link in recipe_list:
+                    recipe = self.extract_details(link)
+                    self.recipes.extend(recipe)
 
                 # TODO: Remover
                 if page_number == 5:
