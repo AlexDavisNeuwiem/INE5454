@@ -62,8 +62,13 @@ class Food(RecipeScraper):
         for i in range(len(ingredients)):
             result['INGREDIENTS'].append(quantity[i] + ' ' + ingredients[i])
         
-        # inst = recipe_html[0].select_one("section", class_="layout__item directions svelte-ar8gac")
-        # print(f"INSTRUÇÕES = {inst}")
+        inst = recipe_html[0].find_all("ul", class_="direction-list svelte-ar8gac")
+        instructions = []
+        
+        for instruction_text in inst:
+            instructions.append(instruction_text.text.strip())
+        
+        result['INSTRUCTIONS'] = instructions
 
         return result
 
