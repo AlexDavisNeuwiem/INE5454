@@ -1,4 +1,5 @@
 from src.recipe_scrapper import RecipeScraper
+from enums import URLs
 import json
 
 
@@ -27,6 +28,7 @@ class Food(RecipeScraper):
 
         result = {
             'TITLE': '',
+            'LINK': link,
             'AUTHOR': '',
             'PREP_TIME': '',
             'INGREDIENTS': [],
@@ -83,7 +85,6 @@ class Food(RecipeScraper):
                 # Retorna a próxima URL
                 self.fetch_content()
 
-                # self.save_html()
                 # Extrai as receitas do site
                 url_tmp = self.url
                 recipe_list, finish = self.extract_recipes()
@@ -94,8 +95,9 @@ class Food(RecipeScraper):
                 
                 self.url = url_tmp
 
-                # TODO: Remover
-                if page_number == 5:
+                # Finaliza o webscrapping
+                print(f'FOOD: {page_number}')   
+                if page_number == URLs.PAGE_LIMIT.value:
                     break
                 page_number += 1
 

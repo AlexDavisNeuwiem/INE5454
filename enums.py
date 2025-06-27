@@ -9,3 +9,5 @@ class URLs(Enum):
 
     FOOD = "https://www.food.com/recipe?ref=nav" # Adicionar &pn=2 em diante
     FOOD_OUTPUT_DIR = "src/dados/food/"
+
+    PAGE_LIMIT = 10

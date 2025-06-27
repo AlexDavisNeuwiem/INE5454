@@ -1,4 +1,6 @@
 from src.recipe_scrapper import RecipeScraper
+from enums import URLs
+
 
 class RecipeTinEats(RecipeScraper):
     def extract_recipes(self):
@@ -126,7 +128,6 @@ class RecipeTinEats(RecipeScraper):
             # Retorna a próxima URL
             self.fetch_content()
 
-            # self.save_html()
             # Extrai as receitas do site
             recipe_list, finish = self.extract_recipes()
 
@@ -141,12 +142,12 @@ class RecipeTinEats(RecipeScraper):
             self.url = url_tmp
             self.recipes.extend(recipe_list)
 
-            # TODO: Remover
+            # Finaliza o webscrapping
             print(f'RTE: {page_number}')
-            if page_number == 2:
+            if page_number == URLs.PAGE_LIMIT.value:
                 break
             page_number += 1
-
+            
             # Segue para a próxima página      
             self.next_page()
 

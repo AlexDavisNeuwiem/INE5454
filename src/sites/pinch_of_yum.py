@@ -1,5 +1,6 @@
-import re
 from src.recipe_scrapper import RecipeScraper
+from enums import URLs
+import re
 
 
 class PinchOfYum(RecipeScraper):
@@ -43,10 +44,9 @@ class PinchOfYum(RecipeScraper):
             print(f"Página {link} foi bloqueada!")
             return prep_time, ingredients, instructions
         
-
         recipe_html = self.soup.find_all("div", id=re.compile("^tasty-recipes-"))
 
-        if not self.url:
+        if not recipe_html:
             return prep_time, ingredients, instructions
         
         prep_time = recipe_html[0].select_one("span.tasty-recipes-total-time")
@@ -74,19 +74,12 @@ class PinchOfYum(RecipeScraper):
             if ingredientes_do_grupo:
                 ingredients.append('\n'.join(ingredientes_do_grupo))
 
-
-
-
-
         instruction_group = recipe_html[0].select("div", class_= "tasty-recipes-instructions")
-        # print(f'INSTRUCTION GROUP: {instruction_group}')
         for i, grupo in enumerate(instruction_group):
             grupos_de_instrucoes = []
             instruction_div = grupo.select("li", id=re.compile("^instruction-step-"))
 
             for instruction_item in instruction_div:
-                # print(f'INSTRUCTION ITEM: {instruction_item.text.strip()}')
-
                 grupos_de_instrucoes.append(instruction_item.get_text(strip=True))
          
             if grupos_de_instrucoes:
@@ -97,9 +90,8 @@ class PinchOfYum(RecipeScraper):
 
     def run(self):
 
-        # Parte Nova =============================
         finish = True
-        page_number = 1
+        page_number = 0
 
         # Percorre as URLs procurando por receitas
         while(finish):
@@ -107,13 +99,14 @@ class PinchOfYum(RecipeScraper):
             try:
                 self.fetch_content()
             except:
-                print(f"Página {page_number} foi bloqueada!")
-                self.next_page()
-                if page_number == 3:
-                    break
-                continue
+                # Finaliza o webscrapping
+                print(f"POY: Página {page_number} foi bloqueada!")
+                # self.next_page()
+                # if page_number == URLs.PAGE_LIMIT.value:
+                #     break
+                # continue
+                break
 
-            # self.save_html()
             # Extrai as receitas do site
             recipe_list, finish = self.extract_recipes()
 
@@ -128,14 +121,14 @@ class PinchOfYum(RecipeScraper):
 
             self.recipes.extend(recipe_list)
 
-            # TODO: Remover
+            # Finaliza o webscrapping
             print(f'POY: {page_number}')    
-            if page_number == 3:
+            if page_number == URLs.PAGE_LIMIT.value:
                 break
-            
+            page_number += 1
+
             # Segue para a próxima página      
             self.next_page()
-            page_number += 1
             
         # Salva o arquivo json
         self.save_json(self.recipes)

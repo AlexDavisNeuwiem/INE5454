@@ -17,12 +17,6 @@ class RecipeScraper:
             self.soup = BeautifulSoup(response.content, 'html.parser')
         else:
             raise Exception(f"Erro ao acessar {self.url}")
-        
-    def save_html(self, filename="conteudo_extraido.html"):
-        if self.soup:
-            path = os.path.join(self.output_dir, filename)
-            with open(path, "w", encoding='utf-8') as file:
-                file.write(self.soup.prettify())
 
     def extract_recipes(self):
         """Método genérico, deve ser sobrescrito por classes filhas"""
@@ -35,6 +29,5 @@ class RecipeScraper:
 
     def run(self):
         self.fetch_content()
-        self.save_html()
         self.recipes = self.extract_recipes()
         self.save_json(self.recipes)

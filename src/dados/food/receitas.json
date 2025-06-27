@@ -1,6 +1,7 @@
 [
     {
         "TITLE": "Bourbon Chicken",
+        "LINK": "https://www.food.com/recipe/bourbon-chicken-45809",
         "AUTHOR": "LinMarie",
         "PREP_TIME": "35mins",
         "INGREDIENTS": [
@@ -22,6 +23,7 @@
     },
     {
         "TITLE": "Best Banana Bread",
+        "LINK": "https://www.food.com/recipe/best-banana-bread-2886",
         "AUTHOR": "lkadlec",
         "PREP_TIME": "1hr 10mins",
         "INGREDIENTS": [
@@ -40,6 +42,7 @@
     },
     {
         "TITLE": "To Die for Crock Pot Roast",
+        "LINK": "https://www.food.com/recipe/to-die-for-crock-pot-roast-27208",
         "AUTHOR": "yooper",
         "PREP_TIME": "9hrs 5mins",
         "INGREDIENTS": [
@@ -55,6 +58,7 @@
     },
     {
         "TITLE": "Crock-Pot Chicken With Black Beans & Cream Cheese",
+        "LINK": "https://www.food.com/recipe/crock-pot-chicken-with-black-beans-cream-cheese-89204",
         "AUTHOR": "Jen Santiago",
         "PREP_TIME": "4hrs 3mins",
         "INGREDIENTS": [
@@ -70,6 +74,7 @@
     },
     {
         "TITLE": "Creamy Cajun Chicken Pasta",
+        "LINK": "https://www.food.com/recipe/creamy-cajun-chicken-pasta-39087",
         "AUTHOR": "Lorac",
         "PREP_TIME": "25mins",
         "INGREDIENTS": [
@@ -92,6 +97,7 @@
     },
     {
         "TITLE": "Oatmeal Raisin Cookies",
+        "LINK": "https://www.food.com/recipe/oatmeal-raisin-cookies-35813",
         "AUTHOR": "Bev I Am",
         "PREP_TIME": "26mins",
         "INGREDIENTS": [
@@ -113,6 +119,7 @@
     },
     {
         "TITLE": "Best Ever Banana Cake With Cream Cheese Frosting",
+        "LINK": "https://www.food.com/recipe/best-ever-banana-cake-with-cream-cheese-frosting-67256",
         "AUTHOR": "Rhonda J",
         "PREP_TIME": "1hr 15mins",
         "INGREDIENTS": [
@@ -138,6 +145,7 @@
     },
     {
         "TITLE": "Yes, Virginia There is a Great Meatloaf",
+        "LINK": "https://www.food.com/recipe/yes-virginia-there-is-a-great-meatloaf-54257",
         "AUTHOR": "Nita Holleman",
         "PREP_TIME": "1hr 20mins",
         "INGREDIENTS": [
@@ -159,6 +167,7 @@
     },
     {
         "TITLE": "Ice Cubes",
+        "LINK": "https://www.food.com/recipe/ice-cubes-420398",
         "AUTHOR": "CHRISSYG",
         "PREP_TIME": "6hrs 2mins",
         "INGREDIENTS": [
@@ -171,6 +180,7 @@
     },
     {
         "TITLE": "Pancakes",
+        "LINK": "https://www.food.com/recipe/pancakes-25690",
         "AUTHOR": "Ellen Brody",
         "PREP_TIME": "10mins",
         "INGREDIENTS": [
@@ -188,6 +198,7 @@
     },
     {
         "TITLE": "Beer Bread",
+        "LINK": "https://www.food.com/recipe/beer-bread-73440",
         "AUTHOR": "Gerald Norman",
         "PREP_TIME": "1hr 3mins",
         "INGREDIENTS": [
@@ -204,6 +215,7 @@
     },
     {
         "TITLE": "Kittencal's Italian Melt-In-Your-Mouth Meatballs",
+        "LINK": "https://www.food.com/recipe/kittencals-italian-melt-in-your-mouth-meatballs-69173",
         "AUTHOR": "Kittencalrecipezazz",
         "PREP_TIME": "50mins",
         "INGREDIENTS": [
@@ -224,6 +236,7 @@
     },
     {
         "TITLE": "Japanese Mum's Chicken",
+        "LINK": "https://www.food.com/recipe/japanese-mums-chicken-68955",
         "AUTHOR": "JustJanS",
         "PREP_TIME": "45mins",
         "INGREDIENTS": [
@@ -241,6 +254,7 @@
     },
     {
         "TITLE": "Creamy Burrito Casserole",
+        "LINK": "https://www.food.com/recipe/creamy-burrito-casserole-33919",
         "AUTHOR": "TXHomemaker",
         "PREP_TIME": "50mins",
         "INGREDIENTS": [
@@ -260,6 +274,7 @@
     },
     {
         "TITLE": "Kittencal's Moist Cheddar-Garlic Oven Fried Chicken Breast",
+        "LINK": "https://www.food.com/recipe/kittencals-moist-cheddar-garlic-oven-fried-chicken-breast-82102",
         "AUTHOR": "Kittencalrecipezazz",
         "PREP_TIME": "1hr",
         "INGREDIENTS": [
@@ -280,6 +295,7 @@
     },
     {
         "TITLE": "Banana Banana Bread",
+        "LINK": "https://www.food.com/recipe/banana-banana-bread-25885",
         "AUTHOR": "Shelley Albeluhn",
         "PREP_TIME": "1hr 15mins",
         "INGREDIENTS": [
@@ -297,6 +313,7 @@
     },
     {
         "TITLE": "Oven-Fried Chicken Chimichangas",
+        "LINK": "https://www.food.com/recipe/oven-fried-chicken-chimichangas-28148",
         "AUTHOR": "Miss Annie",
         "PREP_TIME": "45mins",
         "INGREDIENTS": [
@@ -318,6 +335,7 @@
     },
     {
         "TITLE": "Simply Sour Cream Chicken Enchiladas",
+        "LINK": "https://www.food.com/recipe/simply-sour-cream-chicken-enchiladas-129926",
         "AUTHOR": "Debs Recipes",
         "PREP_TIME": "45mins",
         "INGREDIENTS": [
@@ -338,6 +356,7 @@
     },
     {
         "TITLE": "Fannie Farmer's Classic Baked Macaroni & Cheese",
+        "LINK": "https://www.food.com/recipe/fannie-farmers-classic-baked-macaroni-cheese-135350",
         "AUTHOR": "Carla C.",
         "PREP_TIME": "40mins",
         "INGREDIENTS": [
@@ -357,6 +376,7 @@
     },
     {
         "TITLE": "Southern Buttermilk Biscuits",
+        "LINK": "https://www.food.com/recipe/southern-buttermilk-biscuits-26110",
         "AUTHOR": "P48422",
         "PREP_TIME": "22mins",
         "INGREDIENTS": [
@@ -373,6 +393,7 @@
     },
     {
         "TITLE": "Soft Snickerdoodle Cookies",
+        "LINK": "https://www.food.com/recipe/soft-snickerdoodle-cookies-97496",
         "AUTHOR": "Juju Bee",
         "PREP_TIME": "25mins",
         "INGREDIENTS": [
@@ -393,6 +414,7 @@
     },
     {
         "TITLE": "Panera's Cream Cheese Potato Soup",
+        "LINK": "https://www.food.com/recipe/paneras-cream-cheese-potato-soup-150863",
         "AUTHOR": "Shawn H",
         "PREP_TIME": "1hr",
         "INGREDIENTS": [
@@ -409,6 +431,7 @@
     },
     {
         "TITLE": "Crock Pot Whole Chicken",
+        "LINK": "https://www.food.com/recipe/crock-pot-whole-chicken-33671",
         "AUTHOR": "Kathy",
         "PREP_TIME": "23hrs",
         "INGREDIENTS": [
@@ -429,6 +452,7 @@
     },
     {
         "TITLE": "Delicious Chicken Pot Pie",
+        "LINK": "https://www.food.com/recipe/delicious-chicken-pot-pie-10744",
         "AUTHOR": "vincy bramblett",
         "PREP_TIME": "1hr 45mins",
         "INGREDIENTS": [
@@ -451,6 +475,7 @@
     },
     {
         "TITLE": "Pete's Scratch Pancakes",
+        "LINK": "https://www.food.com/recipe/petes-scratch-pancakes-5170",
         "AUTHOR": "Bill Hilbrich",
         "PREP_TIME": "20mins",
         "INGREDIENTS": [
@@ -468,6 +493,7 @@
     },
     {
         "TITLE": "Olive Garden Copycat Zuppa Toscana",
+        "LINK": "https://www.food.com/recipe/olive-garden-copycat-zuppa-toscana-38298",
         "AUTHOR": "Cycle Michael",
         "PREP_TIME": "1hr",
         "INGREDIENTS": [
@@ -492,6 +518,7 @@
     },
     {
         "TITLE": "Crock Pot Cream Cheese Chicken",
+        "LINK": "https://www.food.com/recipe/crock-pot-cream-cheese-chicken-12458",
         "AUTHOR": "Dawn399",
         "PREP_TIME": "7hrs 20mins",
         "INGREDIENTS": [
@@ -510,6 +537,7 @@
     },
     {
         "TITLE": "Chicken Lazone",
+        "LINK": "https://www.food.com/recipe/chicken-lazone-65768",
         "AUTHOR": "Luby Luby Luby",
         "PREP_TIME": "25mins",
         "INGREDIENTS": [
@@ -527,6 +555,7 @@
     },
     {
         "TITLE": "Fudge Crinkles (A Great 4 Ingredient Cake Mix Cookie)",
+        "LINK": "https://www.food.com/recipe/fudge-crinkles-a-great-4-ingredient-cake-mix-cookie-32614",
         "AUTHOR": "Karen=^..^=",
         "PREP_TIME": "15mins",
         "INGREDIENTS": [
@@ -541,6 +570,7 @@
     },
     {
         "TITLE": "Pork Chops Yum-Yum",
+        "LINK": "https://www.food.com/recipe/pork-chops-yum-yum-95222",
         "AUTHOR": "Brad Beckwith",
         "PREP_TIME": "1hr 10mins",
         "INGREDIENTS": [
@@ -558,6 +588,7 @@
     },
     {
         "TITLE": "The Best Brownies",
+        "LINK": "https://www.food.com/recipe/the-best-brownies-54225",
         "AUTHOR": "Juenessa",
         "PREP_TIME": "40mins",
         "INGREDIENTS": [
@@ -576,6 +607,7 @@
     },
     {
         "TITLE": "Mexican Rice",
+        "LINK": "https://www.food.com/recipe/mexican-rice-117892",
         "AUTHOR": "Pot Scrubber",
         "PREP_TIME": "55mins",
         "INGREDIENTS": [
@@ -597,6 +629,7 @@
     },
     {
         "TITLE": "Kittencal's 5-Minute Cinnamon Flop Brunch Cake",
+        "LINK": "https://www.food.com/recipe/kittencals-5-minute-cinnamon-flop-brunch-cake-77397",
         "AUTHOR": "Kittencalrecipezazz",
         "PREP_TIME": "25mins",
         "INGREDIENTS": [
@@ -618,6 +651,7 @@
     },
     {
         "TITLE": "Greek Potatoes (Oven-Roasted and Delicious!)",
+        "LINK": "https://www.food.com/recipe/greek-potatoes-oven-roasted-and-delicious-87782",
         "AUTHOR": "evelynathens",
         "PREP_TIME": "1hr 29mins",
         "INGREDIENTS": [
@@ -636,6 +670,7 @@
     },
     {
         "TITLE": "Chicken Tortilla Soup II",
+        "LINK": "https://www.food.com/recipe/chicken-tortilla-soup-ii-4627",
         "AUTHOR": "Eddie Shipman",
         "PREP_TIME": "1hr 10mins",
         "INGREDIENTS": [
@@ -662,6 +697,7 @@
     },
     {
         "TITLE": "Better Than Olive Garden Alfredo Sauce",
+        "LINK": "https://www.food.com/recipe/better-than-olive-garden-alfredo-sauce-141983",
         "AUTHOR": "Parker?s mom",
         "PREP_TIME": "25mins",
         "INGREDIENTS": [
@@ -682,6 +718,7 @@
     },
     {
         "TITLE": "The Best Chili You Will Ever Taste",
+        "LINK": "https://www.food.com/recipe/the-best-chili-you-will-ever-taste-73166",
         "AUTHOR": "AmandaAOates",
         "PREP_TIME": "2hrs 30mins",
         "INGREDIENTS": [
@@ -712,6 +749,7 @@
     },
     {
         "TITLE": "Reeses Squares - 5 Ingredients & No Bake (Reese's)",
+        "LINK": "https://www.food.com/recipe/reeses-squares-5-ingredients-no-bake-reeses-29679",
         "AUTHOR": "Karen=^..^=",
         "PREP_TIME": "15mins",
         "INGREDIENTS": [
@@ -727,6 +765,7 @@
     },
     {
         "TITLE": "Absolute Best Ever Lasagna",
+        "LINK": "https://www.food.com/recipe/absolute-best-ever-lasagna-28768",
         "AUTHOR": "ratherbeswimmin",
         "PREP_TIME": "2hrs 30mins",
         "INGREDIENTS": [
@@ -755,6 +794,7 @@
     },
     {
         "TITLE": "Spinach Artichoke Dip",
+        "LINK": "https://www.food.com/recipe/spinach-artichoke-dip-1209",
         "AUTHOR": "Juli9251",
         "PREP_TIME": "30mins",
         "INGREDIENTS": [
@@ -772,6 +812,7 @@
     },
     {
         "TITLE": "Peach Cobbler",
+        "LINK": "https://www.food.com/recipe/peach-cobbler-31901",
         "AUTHOR": "Suellen Anderson",
         "PREP_TIME": "55mins",
         "INGREDIENTS": [
@@ -793,6 +834,7 @@
     },
     {
         "TITLE": "Easy Stove-Top Macaroni & Cheese",
+        "LINK": "https://www.food.com/recipe/easy-stove-top-macaroni-cheese-60350",
         "AUTHOR": "Marie",
         "PREP_TIME": "30mins",
         "INGREDIENTS": [
@@ -810,6 +852,7 @@
     },
     {
         "TITLE": "The Sweetest Blueberry Muffins",
+        "LINK": "https://www.food.com/recipe/the-sweetest-blueberry-muffins-50719",
         "AUTHOR": "KRUSTY",
         "PREP_TIME": "30mins",
         "INGREDIENTS": [
@@ -832,6 +875,7 @@
     },
     {
         "TITLE": "The Most Wonderful Gingerbread Cookies",
+        "LINK": "https://www.food.com/recipe/the-most-wonderful-gingerbread-cookies-80156",
         "AUTHOR": "gingerkitten D",
         "PREP_TIME": "2hrs 23mins",
         "INGREDIENTS": [
@@ -855,6 +899,7 @@
     },
     {
         "TITLE": "Crumb Topped Banana Muffins",
+        "LINK": "https://www.food.com/recipe/crumb-topped-banana-muffins-43509",
         "AUTHOR": "MizzNezz",
         "PREP_TIME": "35mins",
         "INGREDIENTS": [
@@ -878,6 +923,7 @@
     },
     {
         "TITLE": "Chinese Fried Rice",
+        "LINK": "https://www.food.com/recipe/chinese-fried-rice-38748",
         "AUTHOR": "PalatablePastime",
         "PREP_TIME": "28mins",
         "INGREDIENTS": [
@@ -900,6 +946,7 @@
     },
     {
         "TITLE": "Wonderful Salsa",
+        "LINK": "https://www.food.com/recipe/wonderful-salsa-9272",
         "AUTHOR": "Jazze22",
         "PREP_TIME": "1hr 15mins",
         "INGREDIENTS": [
@@ -922,6 +969,7 @@
     },
     {
         "TITLE": "Dark Chocolate Cake",
+        "LINK": "https://www.food.com/recipe/dark-chocolate-cake-2496",
         "AUTHOR": "Marg (CaymanDesigns)",
         "PREP_TIME": "1hr",
         "INGREDIENTS": [
@@ -939,6 +987,850 @@
         ],
         "INSTRUCTIONS": [
             "Heat oven to 350°F.\nGrease and flour two 9 inch round baking pans or one 13x9 inch pan.\nIn large mixer bowl, stir together dry ingredients.\nAdd eggs, milk, oil, and vanilla; beat on medium speed for 2 minutes.\nStir in boiling water by hand (batter will be thin).\n NOTE: I have tried it with 1/2 cup, 2/3 cup and 3/4 cup boiling water and we prefer it with less than 1 cup water.\n I usually use between 2/3 & 3/4 cups.\n The cake is still very moist but it doesn't seem to \"fall\" as much as it cools.\n This might have to do with our high humidity or brand of flour or other factors so I don't know if it will work for everyone.\nPour into prepared pan.\nBake 30 to 35 minutes for round 9-inch pans, 35 to 40 minutes for rectangular pan or until wooden pick inserted in center comes out clean.\n (Do not use 8-inch pans or the batter will overflow.\n).\nBecause they have a tendency to overflow if you fill them more than 2/3 full, I usually get about 27-28 cupcakes per batch.\n Bake for approximately 18-20 minutes.\nCool 10 minutes; remove from pan to wire racks.\nPlease note: baking cocoa isn't hot chocolate drink mix! Baking cocoa contains no sugar and it is found on the baking aisle.\n Chocolate drink mixes that you add to milk or water to drink WILL NOT work in this recipe.\n"
+        ]
+    },
+    {
+        "TITLE": "Kittencal's Chocolate Frosting/Icing",
+        "LINK": "https://www.food.com/recipe/kittencals-chocolate-frosting-icing-89207",
+        "AUTHOR": "Kittencalrecipezazz",
+        "PREP_TIME": "5mins",
+        "INGREDIENTS": [
+            "1⁄2 cup    butter, softened  (you can use margarine but the flavor will not be the same)",
+            "2 2⁄3 cups    confectioners' sugar, sifted",
+            "1⁄3 cup    half-and-half cream (can use unwhipped whipping cream in place of half and half) or 1/3  cup    milk (can use unwhipped whipping cream in place of half and half)",
+            "1 1⁄2 teaspoons    vanilla",
+            "1⁄3 cup    unsweetened cocoa powder, sifted  (for light)",
+            "1⁄2 cup    unsweetened cocoa powder, sifted  (for medium)",
+            "3⁄4 cup    unsweetened cocoa powder, sifted  (for dark rich)"
+        ],
+        "INSTRUCTIONS": [
+            "Cream the butter in a small bowl.\nBlend in the cocoa powder (the amount desired for a light, medium or dark flavor), vanilla, confectioners sugar, alternately with the cream.\nBeat with an electric mixer, until the desired texture is achieved.\n**NOTE** because of the additional cocoa powder more cream may have to be added in to reach desired consistency.\n"
+        ]
+    },
+    {
+        "TITLE": "Authentic Italian Meatballs",
+        "LINK": "https://www.food.com/recipe/authentic-italian-meatballs-92095",
+        "AUTHOR": "InMemoryofBrats",
+        "PREP_TIME": "3hrs 20mins",
+        "INGREDIENTS": [
+            "1 lb    ground beef",
+            "2 eggs",
+            "1⁄4 cup    milk",
+            "1⁄2 cup    breadcrumbs",
+            "1⁄2 teaspoon    salt",
+            "1 tablespoon    fresh parsley",
+            "1 teaspoon    garlic powder",
+            "1⁄2 teaspoon    fresh ground pepper",
+            "1⁄2 cup   grated locatelli cheese"
+        ],
+        "INSTRUCTIONS": [
+            "Mix all ingredients in a large bowl by hand.\nUse your bare hands for best results.\nRoll meatballs to about the size of a golf ball.\n (wet your hands to prevent the meat from sticking to them while rolling the meat balls).\nDrop raw meatballs into large (I use a stock pot) pot of sauce.\n(I have an incredible sauce recipe {#92096} I use for my meatballs).\nSimmer for about 3 hours.\n"
+        ]
+    },
+    {
+        "TITLE": "Soft Chocolate Chip Cookies",
+        "LINK": "https://www.food.com/recipe/soft-chocolate-chip-cookies-20408",
+        "AUTHOR": "Peach",
+        "PREP_TIME": "25mins",
+        "INGREDIENTS": [
+            "2 1⁄4 cups    flour",
+            "1 teaspoon    baking soda",
+            "3⁄4 cup   packed brown sugar",
+            "1⁄2 cup    butter, softened",
+            "1⁄2 cup    shortening",
+            "1⁄4 cup    sugar",
+            "1 (4   ounce) package   instant vanilla pudding",
+            "1 teaspoon    vanilla extract",
+            "1⁄8 teaspoon    almond extract",
+            "2 eggs, beaten",
+            "2 cups    chocolate chips"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven 350 degrees.\nCombine flour and baking soda.\nIn a large bowl beat brown sugar, sugar, butter, shortening, pudding mix, vanilla, and almond extract.\nMix until well blended.\nAdd eggs and mix well.\nBeat in the flour mixture.\nStir in chocolate chips.\nDrop by rounded teasponful and bake 10-12 minutes.\n"
+        ]
+    },
+    {
+        "TITLE": "Should Be Illegal Oven BBQ Ribs",
+        "LINK": "https://www.food.com/recipe/should-be-illegal-oven-bbq-ribs-8701",
+        "AUTHOR": "Beverly Carson",
+        "PREP_TIME": "1hr 10mins",
+        "INGREDIENTS": [
+            "3 lbs    pork back ribs",
+            "1 (8   ounce) jar   honey",
+            "1 teaspoon    paprika",
+            "1 teaspoon    chili powder",
+            "1⁄2 teaspoon    garlic powder",
+            "2 tablespoons    Old Bay Seasoning",
+            "1⁄2 teaspoon    onion powder",
+            "1⁄4 teaspoon    celery salt",
+            "1⁄2 cup    dark brown sugar",
+            "1⁄4 teaspoon    fresh ground pepper",
+            "1 medium    onion, grated or finely chopped",
+            "12 ounces    barbecue sauce",
+            "1⁄4 cup    white sugar"
+        ],
+        "INSTRUCTIONS": [
+            "Place all ingredients together in large roasting pan (i use bottom of turkey roaster).\nCut ribs apart for easier serving.\nMix together making sure to coat all ribs with this semi-dry paste.\nSpread ribs out evenly on bottom of pan.\ncover lightly with foil.\nBake at 375 degrees for approximately 1 hour.\nTurning or stirring occasionally.\nYou can use broiler for these ribs, just watch more closely, and adjust cooking time.\nThese ribs are also great finished on the grill for a few minutes on each side.\n"
+        ]
+    },
+    {
+        "TITLE": "Kittencal's Chicken Crescent Roll Casserole",
+        "LINK": "https://www.food.com/recipe/kittencals-chicken-crescent-roll-casserole-78814",
+        "AUTHOR": "Kittencalrecipezazz",
+        "PREP_TIME": "55mins",
+        "INGREDIENTS": [
+            "2 (8   ounce) cans   Pillsbury Refrigerated Crescent Dinner Rolls",
+            "1 (10 3/4  ounce) can   cream of chicken soup, undiluted",
+            "3⁄4 cup   grated cheddar cheese (or any cheese of choice) or 3/4  cup    swiss cheese (or any cheese of choice)",
+            "1⁄2 cup    18% table cream (or use whipping cream)",
+            "4 ounces    cream cheese (very soft)",
+            "4 tablespoons    butter (very soft but not melted)",
+            "1⁄2 - 1 teaspoon    garlic powder (optional)",
+            "1⁄3 cup    onion, finely chopped  (can use green onions)",
+            "2 large    cooked chicken breasts, finely chopped  (or use about 2 cups, can use cooked turkey)",
+            "1⁄2 - 3⁄4 cup   finely grated cheddar cheese",
+            "1⁄2 teaspoon    seasoning salt (or use 1/2 teaspoon white salt or to taste)",
+            "1⁄2 teaspoon    ground black pepper (or to taste)",
+            "2 -4 tablespoons    mayonnaise or 2 -4   tablespoons    whipping cream",
+            "1 -2 cup   grated cheddar cheese (for topping)"
+        ],
+        "INSTRUCTIONS": [
+            "Set oven to 350°F.\nButter a casserole dish (any size to hold crescent rolls).\nIn a saucepan, mix half and half cream, 3/4 cup grated cheese (can use more cheese if desired) and undiluted chicken soup (can season with black pepper if desired).\nHeat just until the cheese melts (do not boil).\nFor the filling --- (make certain that the cream cheese and butter are very soft) in a bowl, mix the soft cream cheese with butter until very smooth, then add in garlic powder (if using).\nAdd in the chopped chicken, onion and cheddar cheese; mix well until combined.\nAdd in 2 tablespoons whipping cream or mayonnaise; mix to combine (add in a little more if the mixture seems too dry).\nSeason with seasoned salt or white and black pepper to taste.\nUnroll the crescent rolls.\nPlace 1 heaping tablespoon chicken mixture (or a little more) on top of each crescent triangle, then roll up starting at the thicker end.\nDrizzle a small amount of soup mixture on the bottom of the dish.\nThen place the crescent rolls seam-side down on top of the creamed mixture in the casserole.\nDrizzle the remaining sauce on top (you don't have to use the full amount of cream sauce, just use as much as desired) and sprinkle with 1 cup (or more) grated cheese, or amount desired.\nBake for about 30 minutes.\n"
+        ]
+    },
+    {
+        "TITLE": "5 Minute Vegan Pancakes",
+        "LINK": "https://www.food.com/recipe/5-minute-vegan-pancakes-132263",
+        "AUTHOR": "chef1209314",
+        "PREP_TIME": "15mins",
+        "INGREDIENTS": [
+            "1 cup    flour (whichever kind you prefer)",
+            "1 tablespoon    sugar (I used organic cane sugar)",
+            "2 tablespoons    baking powder",
+            "1⁄8 teaspoon    salt",
+            "1 cup    soymilk",
+            "2 tablespoons    vegetable oil"
+        ],
+        "INSTRUCTIONS": [
+            "Set out all your ingredients.\nSet a stove element with a pan to medium heat.\nCombine the 4 dry ingredients (flour, sugar, baking powder -- two Tablespoons, not two Teaspoons as some have suggested, salt) in a bowl.\nAdd the soy milk and vegetable oil to your mixture.\nMix until smooth.\nNow the pan should be ready for your batter, so spoon one pancakes' worth of the mixture into the pan.\nFlip [carefully] when you see bubbles in the middle of the pancake, or if the edges are looking stiffened.\nRepeat until the batter is gone, and try not to eat them all while you're cooking them.\n"
+        ]
+    },
+    {
+        "TITLE": "MaMa's Supper Club Tilapia Parmesan",
+        "LINK": "https://www.food.com/recipe/mamas-supper-club-tilapia-parmesan-53914",
+        "AUTHOR": "Crabbycakes",
+        "PREP_TIME": "35mins",
+        "INGREDIENTS": [
+            "2 lbs    tilapia fillets (orange roughy, cod or red snapper can be substituted)",
+            "2 tablespoons    lemon juice",
+            "1⁄2 cup   grated parmesan cheese",
+            "4 tablespoons    butter, room temperature",
+            "3 tablespoons    mayonnaise",
+            "3 tablespoons   finely chopped green onions",
+            "1⁄4 teaspoon    seasoning salt (I like Old Bay seasoning here)",
+            "1⁄4 teaspoon    dried basil",
+            " black pepper",
+            "1 dash    hot pepper sauce"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven to 350 degrees.\nIn buttered 13-by-9-inch baking dish or jellyroll pan, lay fillets in single layer.\nDo not stack fillets.\nBrush top with juice.\nIn bowl combine cheese, butter, mayonnaise, onions and seasonings.\nMix well with fork.\nBake fish in preheated oven 10 to 20 minutes or until fish just starts to flake.\nSpread with cheese mixture and bake until golden brown, about 5 minutes.\nBaking time will depend on the thickness of the fish you use.\nWatch fish closely so that it does not overcook.\nMakes 4 servings.\nNote: This fish can also be made in a broiler.\nBroil 3 to 4 minutes or until almost done.\nAdd cheese and broil another 2 to 3 minutes or until browned.\nThank you Mama's Supper Club in Wisconsin.\n"
+        ]
+    },
+    {
+        "TITLE": "Chicken Parmesan",
+        "LINK": "https://www.food.com/recipe/chicken-parmesan-19135",
+        "AUTHOR": "MizzNezz",
+        "PREP_TIME": "23mins",
+        "INGREDIENTS": [
+            "4 boneless skinless chicken breast halves",
+            " salt and pepper",
+            "1⁄2 cup    Italian breadcrumbs",
+            "1 egg, beaten",
+            "4 tablespoons    butter",
+            "2 cups    spaghetti sauce",
+            "4 slices    mozzarella cheese",
+            " parmesan cheese, grated",
+            " spaghetti, for serving  (optional)",
+            "2 tablespoons   chopped parsley, for garnish  (optional)"
+        ],
+        "INSTRUCTIONS": [
+            "Pound chicken to flatten.\nSalt and pepper to taste.\nDip chicken in egg; then in bread crumbs.\nFry in butter in hot skillet, turning and browning for 10 minutes or until chicken is done.\nRemove from skillet.\nTo skillet add spaghetti sauce.\nHeat thoroughly.\nAdd chicken.\nPlace slices of mozzarella on top of chicken.\nSprinkle with parmesan.\nCover and cook until cheese is melted.\nServe with a side of spaghetti.\n Optional, garnish with chopped parsley and more parmesan cheese.\n"
+        ]
+    },
+    {
+        "TITLE": "Why-I-Joined-Zaar Carrot Cake",
+        "LINK": "https://www.food.com/recipe/why-i-joined-zaar-carrot-cake-73825",
+        "AUTHOR": "Lennie",
+        "PREP_TIME": "1hr 5mins",
+        "INGREDIENTS": [
+            "2 cups    all-purpose flour",
+            "2 teaspoons    baking soda",
+            "1 teaspoon    baking powder",
+            "1 teaspoon    salt",
+            "2 teaspoons    ground cinnamon",
+            "1 3⁄4 cups    white sugar",
+            "1 cup    vegetable oil",
+            "3 eggs",
+            "1 teaspoon    vanilla extract",
+            "2 cups   shredded carrots",
+            "1 cup    flaked coconut",
+            "1 cup   chopped walnuts",
+            "1 (8   ounce) can   crushed pineapple, drained",
+            "1 (8   ounce) package   cream cheese, softened",
+            "1⁄4 cup    butter, softened",
+            "2 cups    icing sugar"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven to 350 degrees F (175 degrees C).\n Grease and flour a 9x13 inch pan.\nMix flour, baking soda, baking powder, salt and cinnamon; make a well in the center and add sugar, oil, eggs and vanilla.\n Mix with wooden spoon until smooth.\nStir in carrots, coconut, walnuts and pineapple.\n Pour into 9x13 inch pan and bake for about 45 minutes.\n Don't panic, the centre will sink a little.\nAllow to cool; when cool, ice the cake.\n You can certainly use your favourite cream cheese frosting to ice this cake, but the one I've included is highly recommended (I usually leave the cake in the 13x9 pan and just ice the top).\nTo make the frosting: Cream the butter and cream cheese until smooth; add the icing sugar and beat until creamy.\n"
+        ]
+    },
+    {
+        "TITLE": "Impossible Peanut Butter Cookies",
+        "LINK": "https://www.food.com/recipe/impossible-peanut-butter-cookies-15411",
+        "AUTHOR": "Mysterygirl",
+        "PREP_TIME": "27mins",
+        "INGREDIENTS": [
+            "1 cup    peanut butter (your choice, smooth or chunky)",
+            "1 cup    granulated sugar",
+            "1 large    egg",
+            " sugar, for rolling  (optional)"
+        ],
+        "INSTRUCTIONS": [
+            "Mix peanut butter, sugar, and egg together until smooth.\nDrop by teaspoon onto cookie sheet two inches apart.\n If desired, roll in extra sugar before placing on cookie sheet.\nPress with fork; press again in opposite direction.\nBake 10 to 12 minutes at 350 degrees Fahrenheit.\nDo not brown; do not over bake.\n"
+        ]
+    },
+    {
+        "TITLE": "Denny's-Style French Toast",
+        "LINK": "https://www.food.com/recipe/dennys-style-french-toast-90674",
+        "AUTHOR": "Doglover61aka Earnh",
+        "PREP_TIME": "22mins",
+        "INGREDIENTS": [
+            "4 eggs",
+            "2⁄3 cup    whole milk",
+            "1⁄3 cup    flour",
+            "1⁄3 cup    sugar",
+            "1⁄2 teaspoon    vanilla",
+            "1⁄4 teaspoon    salt",
+            "1⁄8 teaspoon    cinnamon",
+            "6 slices    Texas toast thick bread",
+            "3 tablespoons    butter",
+            " powdered sugar",
+            " butter",
+            " syrup"
+        ],
+        "INSTRUCTIONS": [
+            "Mix together the eggs, milk, flour, sugar, vanilla, salt& cinnamon.\nHeat a large skillet, or griddle.\nWhen the skillet is hot, add 1 tablespoon butter.\nIf the butter smokes, your pan is too hot; turn down the heat.\nDip each slice of bread into the batter for 30 seconds on each side.\nLet some of the batter drip off, then put in skillet.\nCook each slice 1 1/2-2 minutes per side until each side is golden brown.\nAdd more butter, if necessary, to cook all of the slices.\nTo serve, put on plate, dust with powdered sugar.\n Serve with butter & hot syrup.\n"
+        ]
+    },
+    {
+        "TITLE": "Best Grape Salad",
+        "LINK": "https://www.food.com/recipe/best-grape-salad-35450",
+        "AUTHOR": "Jamie Renee",
+        "PREP_TIME": "10mins",
+        "INGREDIENTS": [
+            "2 lbs    green seedless grapes",
+            "2 lbs    red seedless grapes",
+            "8 ounces    sour cream",
+            "8 ounces    cream cheese, softened",
+            "1⁄2 cup    granulated sugar",
+            "1 teaspoon    vanilla extract, to taste",
+            "1 cup    brown sugar, packed, to taste",
+            "1 cup   crushed pecans, to taste"
+        ],
+        "INSTRUCTIONS": [
+            "Wash and stem grapes.\nSet aside.\nMix sour cream, cream cheese, white sugar and vanilla by hand until blended.\nStir grapes into mixture, and pour in large serving bowl.\nFor topping: Combine brown sugar, and crushed pecans.\nSprinkle over top of grapes to cover completely.\nChill overnight.\n"
+        ]
+    },
+    {
+        "TITLE": "Sesame Chicken",
+        "LINK": "https://www.food.com/recipe/sesame-chicken-44321",
+        "AUTHOR": "Jenny White",
+        "PREP_TIME": "25mins",
+        "INGREDIENTS": [
+            "6 boneless skinless chicken breast halves, pat dry with paper towels",
+            "1⁄2 cup    honey",
+            "1⁄2 cup    low sodium soy sauce",
+            "1 cup    water",
+            "2 tablespoons    cornstarch",
+            "1⁄2 - 1 teaspoon    ground ginger (fresh is better)",
+            "1⁄2 - 1 teaspoon    red pepper flakes (optional)",
+            "1 tablespoon    toasted sesame seeds"
+        ],
+        "INSTRUCTIONS": [
+            "Cut chicken breast into 1 inch strips or bite size pieces.\nHeat a large non-stick skillet that has been sprayed with Pam, over medium-high heat.\nCook chicken for about 6 minutes or until no longer pink.\nMix together honey, soy sauce, water, corn starch, ginger and red pepper flakes.\nWhisk until no corn starch lumps appear.\nPour sauce mixture into skillet with chicken.\nCook until sauce thickens slightly.\nYou can add more water if sauce is too thick.\nSprinkle with sesame seeds.\nCover and simmer for 10 minutes or until chicken starts to soak up the sauce.\nNote: Since originally posting this recipe, I have tried some of the suggestions others have made.\n  I do like it with a bit of sesame oil (be careful not to get too much, just a few drops at the end of cooking is good enough for me, but you might like more), fresh ginger is also good if you have it on hand.\n  I have tried it with garlic and it is good that way also.\n  I have also found that it is good with shrimp and pork.\n Basically what I am trying to say is, the original recipe is just a simple, quick and healthy meal I came up with when I was craving Chinese food.\n  I thought it turned out really great and wanted to share it.\n  I'm happy that so many of you have enjoyed it.\n For those of you that didn't care for it, I hope you can find one that suits your fancy some where else.\n"
+        ]
+    },
+    {
+        "TITLE": "Roasted Asparagus",
+        "LINK": "https://www.food.com/recipe/roasted-asparagus-50847",
+        "AUTHOR": "taylortwo",
+        "PREP_TIME": "25mins",
+        "INGREDIENTS": [
+            "1 lb    asparagus",
+            "1 1⁄2 tablespoons    olive oil",
+            "1⁄2 teaspoon    kosher salt (or 1/4 teaspoon regular table salt)"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven to 425°F.\nCut off the woody bottom part of the asparagus spears and discard.\nWith a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all \"stringy\" and if you eat asparagus you know what I mean by that).\nPlace asparagus on foil-lined baking sheet and drizzle with olive oil.\nSprinkle with salt.\nWith your hands, roll the asparagus around until they are evenly coated with oil and salt.\nRoast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.\nThey should be tender when pierced with the tip of a knife.\nThe tips of the spears will get very brown but watch them to prevent burning.\nThey are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal.\n"
+        ]
+    },
+    {
+        "TITLE": "Kittencal's Buttery Cut-Out Sugar Cookies W/ Icing That Hardens",
+        "LINK": "https://www.food.com/recipe/kittencals-buttery-cut-out-sugar-cookies-w-icing-that-hardens-261889",
+        "AUTHOR": "Kittencalrecipezazz",
+        "PREP_TIME": "2hrs 4mins",
+        "INGREDIENTS": [
+            "1 cup    butter, softened  (no substitutes)",
+            "1 cup    sugar",
+            "2 eggs",
+            "1⁄2 teaspoon    vanilla",
+            "1⁄2 teaspoon    almond extract",
+            "3 1⁄4 cups    all-purpose flour",
+            "1⁄2 teaspoon    baking soda",
+            "1⁄2 teaspoon    baking powder",
+            "1⁄2 teaspoon    salt",
+            "2 cups   sifted confectioners' sugar (the sugar must be sifted)",
+            "1 tablespoon    milk (adding in more if needed for proper spreading consistency)",
+            "1 tablespoon    light corn syrup",
+            "1⁄4 teaspoon    almond extract (can use 1/2 teaspoon vanilla in place of the almond)",
+            " food coloring (use your choice of colours)"
+        ],
+        "INSTRUCTIONS": [
+            "For cookies; in a large bowl combine butter with sugar, eggs, vanilla and almond extract; beat using an electric mixer on high speed until light and fluffy.\nIn another bowl combine the flour with baking powder, baking soda and salt; gradually stir into the butter mixture until well blended.\nCover bowl with plastic wrap and chill for 2 hours.\nSet oven to 400°F.\nLine cookie sheets with parchment paper (do not grease cookie sheets use parchment paper only).\nOn a very lightly floured surface roll out the dough into about 1/4-inch thickness.\nCut into desired shapes using cookie cutters.\nPlace cookies 2-inches apart on cookie sheet.\nBake 4-6 minutes.\nRemove cookies to wire racks to cool completely before icing.\nFor the frosting; in a small bowl mix the confectioners sugar with milk (start with 1-2 tablespoons, you will likely need more milk for the perfect spreading consistency).\nBeat in corn syrup and almond extract until the icing is smooth and glossy (if the icing is too thick add in a small amount more of corn syrup).\nDivide into as many separate bowls as you wish for different colours.\nAdd in food colouring until desired intensity is achieved.\nPaint the icing over the cookies using a brush, or dip edges of cookies into icing.\nAllow to set on waxed paper.\n"
+        ]
+    },
+    {
+        "TITLE": "Award Winning Chili",
+        "LINK": "https://www.food.com/recipe/award-winning-chili-105865",
+        "AUTHOR": "KelBel",
+        "PREP_TIME": "2hrs 15mins",
+        "INGREDIENTS": [
+            "1 1   lb    ground beef or 1   lb    ground turkey",
+            "2 onions, diced",
+            "1 green pepper, diced",
+            "1 tablespoon    jalapeno, finely chopped",
+            "1 (14   ounce) can   Mexican-style tomatoes (like Rotel)",
+            "2 (8   ounce) cans   tomato sauce",
+            "2 tablespoons    cumin",
+            "2 tablespoons    chili powder",
+            "1 teaspoon    salt",
+            "1⁄2 teaspoon    cayenne pepper",
+            "1⁄2 teaspoon    paprika (smoked if you can find it)",
+            "1 (14   ounce) can   kidney beans, drained and rinsed",
+            "1 (14   ounce) can   black beans, drained and rinsed",
+            "1 cup    water",
+            " sour cream",
+            " cheddar cheese",
+            " green onion"
+        ],
+        "INSTRUCTIONS": [
+            "In a medium Dutch oven over medium-high heat add the olive oil.\n Add the ground meat and cook, breaking up into pieces, until browned.\n Add the onions, bell pepper and jalapeno and cook until softened.\n Drain excess grease.\nAdd the tomatoes, tomato sauce, cumin, chili powder, salt, cayenne, paprika and 1 cup water.\n Mix to combine.\nAdd the kidney beans and black beans, mix and bring to a simmer.\n Cover and cook for 1-2 hours.\nServe with desired toppings.\n"
+        ]
+    },
+    {
+        "TITLE": "Kittencal's Easy and Delicious Ranch-Parmesan Chicken",
+        "LINK": "https://www.food.com/recipe/kittencals-easy-and-delicious-ranch-parmesan-chicken-200296",
+        "AUTHOR": "Kittencalrecipezazz",
+        "PREP_TIME": "40mins",
+        "INGREDIENTS": [
+            "6 boneless skinless chicken breasts",
+            "1 cup    dry breadcrumbs (even better, use panko breadcrumbs)",
+            "1⁄4 - 1⁄3 cup    parmesan cheese",
+            "1 teaspoon    seasoning salt",
+            "1⁄2 - 1 teaspoon    ground black pepper",
+            "1⁄2 - 1 teaspoon    garlic powder",
+            "1 cup   prepared ranch salad dressing (use bottled salad dressing, you might need a bit more dressing)",
+            "1⁄4 cup   melted butter (no substitutes)"
+        ],
+        "INSTRUCTIONS": [
+            "Set oven to 400° degrees (set oven rack to lowest position).\nIn a shallow bowl mix together the dry breadcrumbs with Parmesan cheese, seasoned salt, black pepper and garlic powder.\nDip the chicken into the ranch dressing to coat both sides (allow any excess to drip off).\nCoat in the breadcrumb mixture.\nPlace in a single layer onto a greased baking sheet or line with non-stick foil (do NOT bake in a smaller baking dish or the bottom of the chicken will be soggy).\nLightly drizzle the melted butter over each breast (for low-fat option omit the butter or use a diet alternative).\nIf desired you can sprinkle black pepper over the chicken pieces       .\nBake uncovered for about 30-35 minutes or until the chicken is cooked).\n"
+        ]
+    },
+    {
+        "TITLE": "Chicken Noodle Soup",
+        "LINK": "https://www.food.com/recipe/chicken-noodle-soup-20755",
+        "AUTHOR": "MizzNezz",
+        "PREP_TIME": "40mins",
+        "INGREDIENTS": [
+            "2 teaspoons    butter",
+            "1 cup   sliced celery",
+            "1 cup   chopped carrot",
+            "1⁄2 cup   chopped onion",
+            "1⁄2 teaspoon    thyme",
+            "1 teaspoon    poultry seasoning",
+            "2 (32   ounce) containers  and 1 can chicken broth (14 ounce)",
+            "2 teaspoons    chicken bouillon",
+            "8 ounces    egg noodles",
+            "2 cups    cooked chicken (3 frozen breasts)",
+            " parsley"
+        ],
+        "INSTRUCTIONS": [
+            "Melt butter in large pot.\nSauté the celery, carrot and onion for 5 to 10 minutes.\nAdd  thyme, poultry seasoning, chicken broth and bouilion.\nBring to a boil.\nAdd noodles and chicken and cook on low for 20 minutes.\nSprinkle with parsley.\n"
+        ]
+    },
+    {
+        "TITLE": "Baked Salmon",
+        "LINK": "https://www.food.com/recipe/baked-salmon-28199",
+        "AUTHOR": "ngibsonn",
+        "PREP_TIME": "1hr",
+        "INGREDIENTS": [
+            "2 garlic cloves, minced",
+            "6 tablespoons    light olive oil",
+            "1 teaspoon    dried basil",
+            "1 teaspoon    salt",
+            "1 teaspoon    ground black pepper",
+            "1 tablespoon    lemon juice",
+            "1 tablespoon    fresh parsley, chopped",
+            "2 (6   ounce)    salmon fillets"
+        ],
+        "INSTRUCTIONS": [
+            "In a medium glass bowl, prepare marinade by mixing garlic, light olive oil, basil, salt, pepper, lemon juice and parsley.\nPlace salmon fillets in a medium glass baking dish, and cover with the marinade.\nMarinate in the refrigerator about 1 hour, turning occasionally.\nPreheat oven to 375 degrees F (190 degrees C).\nPlace fillets in aluminum foil, cover with marinade, and seal.\nPlace sealed salmon in the glass dish, and bake 35 to 45 minutes, until easily flaked with a fork.\n"
+        ]
+    },
+    {
+        "TITLE": "Crock Pot Lasagna",
+        "LINK": "https://www.food.com/recipe/crock-pot-lasagna-21706",
+        "AUTHOR": "Derf2440",
+        "PREP_TIME": "4hrs 15mins",
+        "INGREDIENTS": [
+            "1 lb    lean ground beef",
+            "1 onion, chopped",
+            "2 garlic cloves, smashed",
+            "1 (28   ounce) can   tomato sauce",
+            "1 (6   ounce) can   tomato paste",
+            "1 1⁄2 teaspoons    salt",
+            "1 teaspoon    dried oregano",
+            "12 ounces    cottage cheese (we like 2%)",
+            "1⁄2 cup   grated parmesan cheese or 1/2  cup    asiago cheese",
+            "12 ounces    lasagna noodles, uncooked",
+            "16 ounces   shredded mozzarella cheese"
+        ],
+        "INSTRUCTIONS": [
+            "Brown ground beef, onion and garlic in frypan.\nAdd tomato sauce, tomato paste, salt and oregano.\nCook long enough to get it warm.\nSpoon a layer of meat sauce onto the bottom of the slow cooker.\nAdd a double layer of uncooked lasagna noodles (break to fit) and top with cheeses.\nRepeat with sauce, noodles and cheeses until all are used up.\nCover and cook on low for 4 to 5 hours.\n"
+        ]
+    },
+    {
+        "TITLE": "Perfect Pork Tenderloin",
+        "LINK": "https://www.food.com/recipe/perfect-pork-tenderloin-63828",
+        "AUTHOR": "BeachGirl",
+        "PREP_TIME": "10mins",
+        "INGREDIENTS": [
+            "1 lb   boneless pork tenderloin",
+            " salt and pepper",
+            " dry seasoning, of your choice  (thyme, savory, rosemary, garlic powder, onion powder, Italian seasoning, or a mixture)"
+        ],
+        "INSTRUCTIONS": [
+            "NOTE:  The success of this cooking method will depend upon how accurate the temperature of your oven is and how well your oven retains heat.\n  Adjust cooking time +/- according to your individual oven.\nNOTICE: If you have a very old oven that is not well insulated, this recipe may not work for you, as heat retention/residual heat is important to the success of this recipe.\nDetermine the EXACT weight of roast from the meat wrapper.\n  Weight will determine how long to cook the roast.\nPreheat oven to 500 degrees.\n  Remove tenderloin from refrigerator.\n  Season meat as desired.\n  Place seasoned meat in an uncovered roasting pan on a shelf in the bottom 1/3 of your oven.\n\nBake EXACTLY 5 1/2 minutes PER POUND.\n  Adjust +/- according to your oven's accuracy and heat retention.\n NOTE:\nIF YOU HAVE AN OVEN PROBE OR THERMOMETER THAT HAS A WIRE THAT GOES THROUGH THE SIDE OF THE OVEN DOOR, BY ALL MEANS USE IT AND SET THE TEMPERATURE ALARM FOR 140 DEGREES.\n  REMOVE MEAT FROM OVEN WHEN ALARM ALERT GOES OFF (probably before an hour has expired).\nTurn oven OFF and DO NOT open oven door for 45 to 1 hour, OR sooner IF you are using a probe thermometer and it alerts that internal meat temp is at 140 degrees.\n  Remove pork from oven, lightly cover with foil, and let rest 5-10 minutes to redistribute internal juices.\n  Roast should be done, very slightly pink in the center, and very moist.\nAfter resting 10 minutes, the roast should reach a safe 145-150 degrees.\nNOTE:******* For anyone questioning this method of cooking, it really does reach the proper internal temperature on a thermometer.\n  According to Sara Moulton on FoodTV, trichinosos is killed at 138 degrees, and 145 is a safe temperature for pork, although the USDA recommends 160 degrees (meat will be much drier).\n  If the center of the meat is not a little pink, it is overcooked!VARIATION:  To make Roasted Veggies along with the tenderloin, peel carrots and potatoes, and cut into about 1-inch cubes.\n   Season as desired and drizzle with a little oil.\n  Add vegetables to pan around (but NOT touching) pork tenderloin.\n  Cook tenderloin as instructed above.\n  The roasted potatoes and carrots should be done when the roast is done.\n  You may need to adjust the size of the potatoes and carrots depending upon the weight of your tenderloin and how long you cook it.\n"
+        ]
+    },
+    {
+        "TITLE": "Cinnamon Cookies",
+        "LINK": "https://www.food.com/recipe/cinnamon-cookies-48241",
+        "AUTHOR": "PetesNina",
+        "PREP_TIME": "30mins",
+        "INGREDIENTS": [
+            "1 cup    sugar",
+            "1⁄2 cup    butter",
+            "1 large    egg",
+            "1 teaspoon    vanilla",
+            "1 1⁄2 cups    flour",
+            "1 1⁄2 teaspoons    cinnamon",
+            "1 teaspoon    baking powder",
+            "1⁄4 teaspoon    salt",
+            " cinnamon sugar"
+        ],
+        "INSTRUCTIONS": [
+            "In a mixer bowl, cream together sugar and butter; beat in egg and vanilla.\nCombine flour, cinnamon, baking powder and salt.\nAdd to butter mixture.\nBlend well.\nCover and refrigerate 2 hours or till firm enough to roll into balls.\nShape dough into small balls about 3/4-inch in diameter.\nRoll in cinnamon sugar to coat.\nSet cookies 1-inch apart on lightly greased cookie sheets.\nBake at 350° for 10 minutes or till the edges are lightly browned.\nCool slightly on pans, then remove to racks to cool completely.\n"
+        ]
+    },
+    {
+        "TITLE": "Crock Pot Taco Soup",
+        "LINK": "https://www.food.com/recipe/crock-pot-taco-soup-40022",
+        "AUTHOR": "Lubie",
+        "PREP_TIME": "2hrs 10mins",
+        "INGREDIENTS": [
+            "1 (16   ounce) can   pinto beans",
+            "1 (16   ounce) can   white beans or  (16   ounce) can   kidney beans",
+            "1 (11   ounce) can  niblet corn",
+            "1 (11   ounce) can   Rotel tomatoes & chilies",
+            "1 (28   ounce) can   diced tomatoes",
+            "1 (4   ounce) can   diced green chilies",
+            "1 (1 1/4  ounce) envelope   taco seasoning mix",
+            "1 (1   ounce) envelope   Hidden Valley® Original Ranch® Dressing and Seasoning Mix",
+            "1 lb   shredded chicken, ground beef  or 1   lb   any meat"
+        ],
+        "INSTRUCTIONS": [
+            "Cook meat and drain.\nShred if needed.\nAdd all ingredients to crock pot.\nDO NOT DRAIN CANS.\nStir.\nCook on high for 2 hours or low for 4 hours.\nKeep on low until serving to keep hot.\nGarnish with sour cream, shredded cheese, chopped green onions, or tortilla chips.\n"
+        ]
+    },
+    {
+        "TITLE": "Soft Peanut Butter Cookies",
+        "LINK": "https://www.food.com/recipe/soft-peanut-butter-cookies-205890",
+        "AUTHOR": "CookingONTheSide",
+        "PREP_TIME": "17mins",
+        "INGREDIENTS": [
+            "1 cup    creamy peanut butter",
+            "1 cup   packed brown sugar",
+            "1 cup    white sugar",
+            "1 cup    butter or 1   cup    margarine, softened",
+            "2 eggs",
+            "1 teaspoon    baking soda",
+            "1 teaspoon    baking powder",
+            "1 teaspoon    vanilla extract",
+            "2 1⁄2 cups    flour"
+        ],
+        "INSTRUCTIONS": [
+            "Cream butter, peanut butter and both sugars together.\nAdd eggs, one at a time, beating well.\nAdd baking soda, powder and vanilla.\nStir in flour.\nRoll into balls, roll in sugar.\n Flatten cookies, using a fork, in a criss-cross pattern.\nBake on ungreased cookie sheet at 350 degrees for 6-7 minutes or adjust to suit your oven and size of cookies!"
+        ]
+    },
+    {
+        "TITLE": "Yummy Crunchy Apple Pie",
+        "LINK": "https://www.food.com/recipe/yummy-crunchy-apple-pie-31128",
+        "AUTHOR": "Wendy W88",
+        "PREP_TIME": "1hr 10mins",
+        "INGREDIENTS": [
+            " pastry for single-crust pie",
+            "1⁄2 cup    sugar",
+            "3 tablespoons    flour",
+            "1⁄4 teaspoon    cinnamon",
+            "1⁄4 teaspoon    nutmeg",
+            "1⁄8 teaspoon    allspice",
+            "1⁄8 teaspoon    salt",
+            "6 cups   thinly sliced peeled apples (1/2 Macintosh, 1/2 Granny Smith)",
+            "2⁄3 cup   packed brown sugar",
+            "1⁄2 cup    flour",
+            "3⁄4 cup    quick-cooking rolled oats",
+            "1⁄2 cup    butter",
+            "1⁄4 cup   toasted pecans, chopped"
+        ],
+        "INSTRUCTIONS": [
+            "Use foil on bottom of oven rather than a cookie sheet under pie pan.\nPrepare pastry for single-crust pie.\nPlace in pie plate and trim and crimp the edge; refrigerate 30 minute loosely covered with plastic wrap.\nIn a large mixing bowl, stir together the sugar, flour, cinnamon, nutmeg, allspice, and salt.\nAdd apple slices and gently toss until they are coated well.\nTransfer mixture to pie.\nFOR CRUMB TOPPING: Stir together brown sugar, flour, and oats.\nUsing a pastry blender, cut in the butter until topping resembles coarse crumbs.\nSprinkle over apple mixture in pie.\nTo prevent over-browning while baking, cover edge of pie with foil.\nBake at 375 degrees Fahrenheit for 25 minutes.\nRemove foil and bake 25 to 30 minutes more, or until top is golden.\nRemove from oven.\nCool on wire rack about an hour and serve!"
+        ]
+    },
+    {
+        "TITLE": "The Only Chocolate Cake Recipe You'll Ever Need! (Devil's Food)",
+        "LINK": "https://www.food.com/recipe/the-only-chocolate-cake-recipe-youll-ever-need-devils-food-26370",
+        "AUTHOR": "Karen=^..^=",
+        "PREP_TIME": "1hr 15mins",
+        "INGREDIENTS": [
+            "2 cups    all-purpose flour",
+            "1 teaspoon    salt",
+            "1 teaspoon    baking powder",
+            "2 teaspoons    baking soda",
+            "3⁄4 cup    unsweetened cocoa powder",
+            "2 cups    sugar",
+            "1 cup    vegetable oil",
+            "1 cup    hot coffee",
+            "1 cup    milk",
+            "2 large    eggs",
+            "1 teaspoon    vanilla",
+            "1 cup    milk",
+            "5 tablespoons    all-purpose flour",
+            "1⁄2 cup    butter, softened",
+            "1⁄2 cup    shortening",
+            "1 cup    sugar",
+            "1 teaspoon    vanilla"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven to 325°F.\nIn a large mixing bowl, sift together dry ingredients.\n Add oil, coffee and milk and mix at medium speed for 2 minutes.\n Add eggs and vanilla and beat 2 more minutes.\n Expect batter to be thin.\nPour into a 9\" x 13\" greased and floured pan or 2- 9\" round pans.\n Bake 9 x 13 pan for about 45 minutes or 9\" pans for about 30 minutes.\n Cool in pans for about 15 minutes and then cool completely on racks.\nWhile cake is cooling make the icing: Combine the milk and flour in a saucepan and cook over low heat until thick, whisking constantly.\n Cover and refrigerate until chilled.\nIn a medium bowl, beat butter, shortening, sugar and vanilla until creamy.\n Add chilled milk and flour mixture and beat for 10 minutes.\n Frost cooled cake and enjoy! The frosting sounds intimidating, but it is worth it! By the way, for some reason, we prefer this cake chilled, right out of the refrigerator.\n The rich chocolate and cool frosting just seem to taste best this way.\n"
+        ]
+    },
+    {
+        "TITLE": "Really Good Vegetarian Meatloaf (Really!)",
+        "LINK": "https://www.food.com/recipe/really-good-vegetarian-meatloaf-really-33921",
+        "AUTHOR": "SaraFish",
+        "PREP_TIME": "1hr 25mins",
+        "INGREDIENTS": [
+            "2 cups    water",
+            "1 teaspoon    salt",
+            "1 cup    lentils",
+            "1 small    onion, diced",
+            "1 cup    quick-cooking oats",
+            "3⁄4 3/4  cup    monterey jack cheese or 3/4  cup    American cheese",
+            "1 egg, beaten",
+            "4 1⁄2 ounces    spaghetti sauce or 4 1/2  ounces    tomato sauce",
+            "1 teaspoon    garlic powder",
+            "1 teaspoon    dried basil",
+            "1 tablespoon    dried parsley",
+            "1⁄2 teaspoon    seasoning salt",
+            "1⁄4 teaspoon    black pepper"
+        ],
+        "INSTRUCTIONS": [
+            "Add salt to water and boil in a saucepan.\nAdd lentils and simmer covered 25-30 minutes, until lentils are soft and most of water is evaporated.\nRemove from fire.\nDrain and partially mash lentils.\nScrape into mixing bowl and allow to cool slightly.\nStir in onion, oats and cheese until mixed.\nAdd egg, tomato sauce, garlic, basil, parsley, seasoning salt and pepper.\nMix well.\nSpoon into loaf pan that has been generously sprayed with Pam (non-stick cooking spray) or well-greased.\nSmooth top with back of spoon.\nBake at 350 degrees for 30- 45 minutes until top of loaf is dry, firm and golden brown.\nCool in pan on rack for about 10 minutes.\nRun a sharp knife around edges of pan then turn out loaf onto serving platter.\n"
+        ]
+    },
+    {
+        "TITLE": "No-Bake Chocolate Oatmeal Cookies",
+        "LINK": "https://www.food.com/recipe/no-bake-chocolate-oatmeal-cookies-23821",
+        "AUTHOR": "Jenny White",
+        "PREP_TIME": "6mins",
+        "INGREDIENTS": [
+            "1⁄2 cup    butter",
+            "1 1⁄2 cups    white sugar",
+            "1⁄2 cup   packed brown sugar",
+            "1⁄2 cup    milk",
+            "4 tablespoons    cocoa",
+            "1 pinch    kosher salt",
+            "1⁄2 cup    creamy peanut butter (or chunky but is seems to make a more crumbly, dry cookie)",
+            "2 teaspoons    vanilla",
+            "3 cups   dry quick-cooking oats"
+        ],
+        "INSTRUCTIONS": [
+            "Add the first six ingredients into a 4-quart sauce pan.\nBring to a rolling boil and hold for 1 minute.\nRemove from heat.\nAdd peanut butter into the hot mixture and stir until melted.\nAdd in vanilla.\n (almond extract is good also, but I only use 1/2 teaspoon almond extract with 1 1/2 teaspoon vanilla extract).\nMix in the dry oats until they are completely coated.\nDrop cookies by tablespoonfuls onto wax paper.\nLet cool until set.\n*Please remember that even if you do follow the recipe exactly, it doesn't always turn out just right.\n  I've had these not set up for me or be hard and dry.\n  But most of the time, the recipe is just right.\n I adjusted the sugar in the recipe by substituting 1/2 cup of white sugar for 1/2 cup brown sugar, this makes them more moist.\n I have also found that it makes a difference if you use quick cooking oats or old fashioned.\n  In my experience it takes more old fashioned oats than quick cooking and I like the texture of the quick cooking better.\n When you make it a few hundred times like I have you learn a couple of things:) Also, Chunky peanut butter tends to make them more dry and crumbly.\n"
+        ]
+    },
+    {
+        "TITLE": "Microwave Chocolate Mug Brownie",
+        "LINK": "https://www.food.com/recipe/microwave-chocolate-mug-brownie-349246",
+        "AUTHOR": "Wheres_the_Beef",
+        "PREP_TIME": "6mins",
+        "INGREDIENTS": [
+            "2 tablespoons   melted butter or 2   tablespoons    oil",
+            "2 2   tablespoons    milk or 2   tablespoons    chocolate milk",
+            "1⁄4 teaspoon    vanilla extract",
+            "1 dash    salt",
+            "2 tablespoons    white sugar, depending on how sweet you like it",
+            "2 tablespoons    unsweetened cocoa powder",
+            "4 tablespoons    flour",
+            " to make triple chocolate add chocolate milk, chocolate chips, and serve with chocolate syrup"
+        ],
+        "INSTRUCTIONS": [
+            "In a coffee mug, add water/milk, melted butter/oil, a dash of salt and vanilla extract.\n Whisk well.\nAdd cocoa powder, whisk well.\n Add sugar, whisk well.\n Add flour, whisk well.\nMicrowave for 60 seconds.\n Center should be slightly molten.\n Careful not to overcook.\nEnjoy with a spoon.\n Careful, brownie will be hot.\n"
+        ]
+    },
+    {
+        "TITLE": "Country White Bread or Dinner Rolls (Bread Machine)",
+        "LINK": "https://www.food.com/recipe/country-white-bread-or-dinner-rolls-bread-machine-71373",
+        "AUTHOR": "DDW",
+        "PREP_TIME": "45mins",
+        "INGREDIENTS": [
+            "1 cup    water, plus",
+            "1 tablespoon    water (70-80 F)",
+            "1 large    egg",
+            "4 1⁄2 teaspoons    vegetable oil",
+            "3 1⁄4 cups    bread flour",
+            "1⁄4 cup    sugar",
+            "1 1⁄2 teaspoons    salt",
+            "2 1⁄4 teaspoons    instant yeast",
+            "2 tablespoons   melted butter (for dinner rolls only) (optional)",
+            "2 tablespoons    shortening (for dinner rolls only) (optional)"
+        ],
+        "INSTRUCTIONS": [
+            "In bread machine pan, place all ingredients from flour through yeast in order as recommended by the manufacturer.\nSelect the basic bread setting.\nCheck dough after 5 minutes of mixing, if needed add 1-2T of water or flour.\nBake as normal.\nFor dinner rolls.\nMix in bread machine but use only the dough option.\nLightly grease a 9 x 13 baking pan (I always use a metal pan).\nWhen dough is finished shape into 15 uniformly sized balls.\n I always grease my hands with shortening to smooth the dough out and it helps keep the dough from drying out.\nCover and let the rolls rise in a warm, draft free place until risen to the desired size.\nI let them about double in size.\nBake in a 350° oven about 12-15 minutes until golden brown.\nAfter removing from the oven, brush the tops of the rolls with melted butter.\nTake out of pan and let completely cool before storing.\n"
+        ]
+    },
+    {
+        "TITLE": "Chicken Tikka Masala",
+        "LINK": "https://www.food.com/recipe/chicken-tikka-masala-25587",
+        "AUTHOR": "tgobbi",
+        "PREP_TIME": "2hrs",
+        "INGREDIENTS": [
+            "1 1⁄2 lbs    boneless skinless chicken, cut in 1 inch cubes",
+            "1 cup    plain yogurt",
+            "2 tablespoons    lemon juice",
+            "2 teaspoons    ground cumin",
+            "2 teaspoons    ground red pepper",
+            "2 teaspoons    black pepper",
+            "1 teaspoon    cinnamon",
+            "1 teaspoon    salt",
+            "1 piece    minced ginger (1-inch long)",
+            "6 bamboo skewers (6-inch)",
+            "1 tablespoon    unsalted butter",
+            "2 garlic cloves, minced",
+            "1 jalapeno chile, minced",
+            "2 teaspoons    ground coriander",
+            "1 teaspoon    ground cumin",
+            "1 teaspoon    paprika",
+            "1 teaspoon    garam masala (buy in Indian market)",
+            "1⁄2 teaspoon    salt",
+            "1 (8   ounce) can   tomato sauce",
+            "1 cup    whipping cream",
+            "1⁄4 cup   chopped fresh cilantro"
+        ],
+        "INSTRUCTIONS": [
+            "Soak bamboo skewers in water.\nThread chicken on skewers, and marinate (in the refrigerator) for an hour or so.\nDiscard marinade.\nFor sauce, melt butter on medium heat.\nAdd garlic & jalapeno; cook 1 minute.\nStir in coriander, cumin, paprika, garam masala & salt.\nStir in tomato sauce.\nSimmer 15 minutes.\nStir in cream; simmer to thicken- about 5 minutes.\nGrill or broil chicken, turning occasionally, to cook through- about 8 minutes.\nRemove chicken from skewers; add to sauce.\nSimmer 5 minutes.\nGarnish with cilantro Serve with basmati rice, naan or pita bread.\nNote: You can make your own garam masala.\n McCormick also makes garam masala; it's available in super markets.\n"
+        ]
+    },
+    {
+        "TITLE": "The Best Belgian Waffles",
+        "LINK": "https://www.food.com/recipe/the-best-belgian-waffles-63071",
+        "AUTHOR": "Marie",
+        "PREP_TIME": "40mins",
+        "INGREDIENTS": [
+            "2 cups    flour",
+            "4 teaspoons    baking powder",
+            "1⁄2 teaspoon    salt",
+            "1⁄4 cup    sugar",
+            "2 eggs",
+            "1⁄2 cup    vegetable oil",
+            "2 cups    milk",
+            "1 teaspoon    vanilla"
+        ],
+        "INSTRUCTIONS": [
+            "Oil the waffle maker.\nSift the dry ingredients together in a large bowl.\nIn separate bowl, separate egg whites and beat until stiff peaks form.\nIn a separate bowl, mix together the egg yolks, milk, oil , and vanilla, stir slightly.\nAdd to dry ingredients and mix well.\nFold in egg whites.\nCook in waffle iron on medium-high heat for around 5-10 minutes.\n"
+        ]
+    },
+    {
+        "TITLE": "Roasted Green Beans",
+        "LINK": "https://www.food.com/recipe/roasted-green-beans-133821",
+        "AUTHOR": "Seamouse",
+        "PREP_TIME": "25mins",
+        "INGREDIENTS": [
+            "2 lbs    green beans",
+            "1 -2 tablespoon    olive oil (or just enough to lightly coat beans)",
+            "1 teaspoon    kosher salt (or to taste, may substitute with Mrs. Dash if desired)",
+            "1⁄2 teaspoon    fresh ground pepper (or to taste, omit if using Mrs. Dash)"
+        ],
+        "INSTRUCTIONS": [
+            "Preheat oven to 400°F.\nWash, dry well, and trim green beans.\nPut green beans on a jelly roll pan.\nDrizzle with olive oil.\nSprinkle with salt and pepper to taste (I like them salty so I use about 1 1/2 teaspoons of salt and about 8-10 grinds of the pepper mill).\n *Mrs.\n Dash may be substituted for salt and pepper as desired.\nUse your hands to be sure all the beans are evenly coated and spread them out into 1 layer.\nRoast for 20-25 minutes, turning after 15 minutes, until beans are fairly brown in spots and somewhat shriveled.\nServe hot or at room temperature.\n"
+        ]
+    },
+    {
+        "TITLE": "Ultimate Pizza Sauce",
+        "LINK": "https://www.food.com/recipe/ultimate-pizza-sauce-114392",
+        "AUTHOR": "SAMS_Club",
+        "PREP_TIME": "1hr 20mins",
+        "INGREDIENTS": [
+            "2 tablespoons    olive oil",
+            "1 tablespoon    butter",
+            "1⁄2 cup    onion, chopped",
+            "1⁄4 cup    celery, chopped",
+            "1 garlic clove, minced",
+            "1 (8   ounce) can   tomato sauce",
+            "1 (6   ounce) can   tomato paste",
+            "2 tablespoons   grated parmesan cheese",
+            "1 teaspoon    dried basil",
+            "1 teaspoon    dried oregano",
+            "1⁄2 teaspoon    salt",
+            "1⁄2 teaspoon    sugar",
+            "1⁄4 teaspoon    black pepper",
+            "1 small    bay leaf",
+            "1 teaspoon    fennel seed"
+        ],
+        "INSTRUCTIONS": [
+            "In a large skillet, melt butter with the oil.\n Add the onion, celery and garlic and saute until soft and transparent.\nAdd tomato sauce and tomato paste and stir until smooth.\nAdd remaining ingredients and bring to slow simmer.\nSimmer for 30-60 minutes (or not at all depending on your taste and time frame).\nRemove the bay leaf and spread the sauce on your prepared pizza dough.\n"
+        ]
+    },
+    {
+        "TITLE": "Tuna Casserole",
+        "LINK": "https://www.food.com/recipe/tuna-casserole-13630",
+        "AUTHOR": "Tara1183",
+        "PREP_TIME": "45mins",
+        "INGREDIENTS": [
+            "8 ounces    egg noodles",
+            "1 (10 1/4  ounce) can   cream of celery soup",
+            "1⁄2 cup    mayonnaise",
+            "3⁄4 cup    evaporated milk",
+            "1 cup   grated cheddar cheese, divided",
+            "1⁄2 cup   finely chopped celery",
+            "1⁄2 small    onion, finely chopped",
+            "4 ounces    mushrooms, drained  (optional)",
+            "1 teaspoon    black pepper",
+            "1 (7   ounce) can   tuna, with juice"
+        ],
+        "INSTRUCTIONS": [
+            "Cook egg noodles to al dente in boiling salted water; drain well.\nPreheat oven to 325°F.\nMix all ingredients together in a large casserole dish, reserving 1/2 cup of cheese.\nSprinkle reserved cheese over the top.\nBake for 30 minutes.\nServe hot.\n"
+        ]
+    },
+    {
+        "TITLE": "Turkey Meatloaf",
+        "LINK": "https://www.food.com/recipe/turkey-meatloaf-54752",
+        "AUTHOR": "tootyflooty",
+        "PREP_TIME": "1hr 5mins",
+        "INGREDIENTS": [
+            "2 tablespoons    butter (or margarine)",
+            "1 cup    onion, chopped",
+            "3 garlic cloves, minced",
+            "1 1⁄4 lbs    ground turkey",
+            "1⁄2 cup    breadcrumbs",
+            "1 egg (or 1/4 cup egg substitute)",
+            "3⁄4 cup    catsup",
+            "2 teaspoons    Worcestershire sauce",
+            "3⁄4 teaspoon    salt",
+            "1⁄2 teaspoon    black pepper"
+        ],
+        "INSTRUCTIONS": [
+            "Melt butter in a skillet.\nCook onion and garlic in melted butter for 5 minutes, stirring occasionally.\nPlace mixture in a large bowl to cool for 5 minutes.\nCombine turkey, bread crumbs, egg, 1/4 cup of the katchup, Worcestershire sauce, salt, and pepper with onion mixture.\nPress meatloaf into an 8x4-inch loaf pan.\nSpread remaining catsup on top.\nBake in a 350 degree oven for 50-55 minutes.\n(Internal temperature should reach 165 degrees.\n) Remove from oven and let stand 5 minutes before serving.\n"
+        ]
+    },
+    {
+        "TITLE": "Best Grilled Pork Chops",
+        "LINK": "https://www.food.com/recipe/best-grilled-pork-chops-27210",
+        "AUTHOR": "Kate in Ontario",
+        "PREP_TIME": "2hrs 15mins",
+        "INGREDIENTS": [
+            "1⁄2 cup    water",
+            "1⁄3 cup    light soy sauce",
+            "1⁄4 cup    vegetable oil",
+            "3 tablespoons    lemon pepper seasoning",
+            "2 garlic cloves, minced",
+            "6 pork loin chops, fat removed"
+        ],
+        "INSTRUCTIONS": [
+            "In deep bowl mix all marinade ingredients.\nMarinate at least 2 hours.\nRemove from marinade and cook over medium-high heat on greased grill for no more than 15 minutes or until done.\n  Cooking time for second side is shorter by 1-2 minutes.\n  3/4\" or thinner, 5-6 minutes maximum per side, thicker than 3/4\" 6-7 minutes maximum per side.\n   DO NOT OVER_GRILL, chops will become tough.\n After 2 minutes grilling on a side, rotate chops 45 degrees  for even cooking.\n  Turn over when juices pool on upper surface and meat appears to be cooked half-way through.\n"
+        ]
+    },
+    {
+        "TITLE": "Steak (Or Chicken) Fajitas",
+        "LINK": "https://www.food.com/recipe/steak-or-chicken-fajitas-63786",
+        "AUTHOR": "Rhonda J",
+        "PREP_TIME": "20mins",
+        "INGREDIENTS": [
+            "3⁄4 lb    top sirloin steak",
+            "2 tablespoons    olive oil",
+            "1 tablespoon    lime juice",
+            "1 garlic clove, finely minced",
+            "1⁄2 teaspoon    chili powder",
+            "1⁄2 teaspoon    cumin",
+            "1⁄2 teaspoon    hot pepper flakes",
+            "1⁄2 teaspoon    black pepper",
+            "1⁄2 teaspoon    salt",
+            "8 flour tortillas (8 inch/20 cm)",
+            "1 -2 onion, we usually use approx. 1-2 depending on size  (however much you like,enough to make a good mix with the peppers)",
+            "2 small    sweet peppers, of your choice  (green, red, or yellow)",
+            " salsa",
+            " sour cream",
+            " shredded cheese",
+            " chopped tomato"
+        ],
+        "INSTRUCTIONS": [
+            "Slice steak into thin strips.\nIn bowl, mix together 1 tablespoons olive oil, lime juice, garlic, chili powder, cumin, hot pepper flakes, black pepper & salt.\nAdd beef strips and stir to coat, set aside.\nWrap tortillas in foil and place in 350° oven for 5-10 minutes or until heated through.\nCut onions in half lengthwise and slice into strips, cut your peppers into strips.\nIn large non stick skillet over medium high heat, heat remaining tablespoons of olive oil.\nAdd onions & peppers stirring for 3-4 minutes, until softened; transfer to a bowl and set aside.\nAdd beef to skillet, cook, stirring for 3-4 minutes or until they lose their red color.\nReturn onions and peppers to skillet; stir for about one minute.\nTo serve, spoon a portion of the beef mixture down the centre of each tortilla, top with your desired toppings , fold bottom of tortilla up over filling, fold the sides in, overlapping.\n"
+        ]
+    },
+    {
+        "TITLE": "Slow-Cooker Cheesy Chicken",
+        "LINK": "https://www.food.com/recipe/slow-cooker-cheesy-chicken-9836",
+        "AUTHOR": "Kathleen Traylor",
+        "PREP_TIME": "8hrs 10mins",
+        "INGREDIENTS": [
+            "2 lbs    boneless skinless chicken breasts",
+            "2 (10 1/2  ounce) cans   condensed cream of chicken soup",
+            "1 (10 1/2  ounce) can   condensed cheddar cheese soup",
+            "1⁄4 teaspoon    garlic powder",
+            " salt and pepper (optional)"
+        ],
+        "INSTRUCTIONS": [
+            "Place chicken breasts in the crock pot.\nMix the undiluted soups together with the garlic powder and pour over chicken.\nCover and cook on low 6-8 hours , until chicken is tender.\nServe with the delicious sauce over rice or noodles.\n"
+        ]
+    },
+    {
+        "TITLE": "Creamy Garlic Penne Pasta",
+        "LINK": "https://www.food.com/recipe/creamy-garlic-penne-pasta-43023",
+        "AUTHOR": "Karen=^..^=",
+        "PREP_TIME": "15mins",
+        "INGREDIENTS": [
+            "1 (1   lb) box   penne or  (1   lb) box   penne rigate, cooked as directed, drained and kept hot",
+            "2 tablespoons    butter or 2   tablespoons    margarine",
+            "2 garlic cloves, minced",
+            "2 tablespoons    flour",
+            "3⁄4 cup    chicken broth or 3/4  cup    beef broth",
+            "3⁄4 cup    milk",
+            "2 teaspoons    parsley flakes",
+            " salt and pepper, to taste",
+            "1⁄3 cup   grated parmesan cheese"
+        ],
+        "INSTRUCTIONS": [
+            "Melt butter and add garlic in a medium sauce pan.\nCook over medium for 1 minute.\nAdd flour and cook 1 minute, stirring constantly.\nStir in broth and milk and cook, stirring frequently, until sauce boils and thickens.\nAdd parsley, salt, pepper and cheese.\nStir until cheese is melted.\nToss hot pasta with sauce and serve immediately.\n"
         ]
     }
 ]
