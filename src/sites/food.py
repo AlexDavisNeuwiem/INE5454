@@ -65,9 +65,10 @@ class Food(RecipeScraper):
         inst = recipe_html[0].find_all("ul", class_="direction-list svelte-ar8gac")
         instructions = []
         
-        for instruction_text in inst:
-            instructions.append(instruction_text.text.strip())
         
+        for instruction_text in inst:
+            instructions.append(instruction_text.text.strip().replace('.', '.\n'))
+    
         result['INSTRUCTIONS'] = instructions
 
         return result
