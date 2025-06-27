@@ -19,7 +19,6 @@ class Food(RecipeScraper):
                 url = item.get('url')
                 if url:
                     resposta.append(url)
-
         return resposta, True
 
     def extract_details(self, link):
@@ -36,20 +35,35 @@ class Food(RecipeScraper):
 
         recipe_html = self.soup.find_all("div", class_="current-recipe")
 
-        title= recipe_html[0].select_one("div", class_="layout__item title svelte-ar8gac")
-        print(f"TÍTULO = {title}")
+        title= recipe_html[0].select_one("h1", class_="svelte-1muv3s8")
+        result['TITLE'] = title.text.strip()
 
-        author = recipe_html[0].select_one("div", class_="byline svelte-176rmbi")
-        print(f"AUTOR = {author}")
+        author_div = recipe_html[0].find("div", class_="byline svelte-176rmbi")
+        author = author_div.select_one("a", class_="svelte-176rmbi")
+        result['AUTHOR'] = author.text.strip()
 
         prep = recipe_html[0].select_one("dd", class_="facts__value svelte-ar8gac")
-        print(f"PREPARO = {prep.text.strip()}")
+        result['PREP_TIME'] = prep.text.strip()
 
-        ingr = recipe_html[0].select_one("section", class_="layout__item ingredients svelte-ar8gac")
-        print(f"INGREDIENTES = {ingr}")
+        ingr_section = recipe_html[0].select_one("section", class_="layout__item ingredients svelte-ar8gac")
+        ingredients = []
+        quantity = []
 
-        inst = recipe_html[0].select_one("section", class_="layout__item directions svelte-ar8gac")
-        print(f"INSTRUÇÕES = {inst}")
+       
+        ingr_text = ingr_section.find_all("span", class_="ingredient-text svelte-ar8gac")
+        ingr_quant = ingr_section.find_all("span", class_="ingredient-quantity svelte-ar8gac")
+
+        for ingredient_text in ingr_text:
+            ingredients.append(ingredient_text.text.strip())
+
+        for ingredient_quantity in ingr_quant:
+            quantity.append(ingredient_quantity.text.strip())
+
+        for i in range(len(ingredients)):
+            result['INGREDIENTS'].append(quantity[i] + ' ' + ingredients[i])
+        
+        # inst = recipe_html[0].select_one("section", class_="layout__item directions svelte-ar8gac")
+        # print(f"INSTRUÇÕES = {inst}")
 
         return result
 
@@ -65,11 +79,14 @@ class Food(RecipeScraper):
 
                 # self.save_html()
                 # Extrai as receitas do site
+                url_tmp = self.url
                 recipe_list, finish = self.extract_recipes()
 
                 for link in recipe_list:
                     recipe = self.extract_details(link)
-                    self.recipes.extend(recipe)
+                    self.recipes.append(recipe)
+                
+                self.url = url_tmp
 
                 # TODO: Remover
                 if page_number == 5:
