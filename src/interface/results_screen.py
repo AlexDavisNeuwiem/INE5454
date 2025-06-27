@@ -130,21 +130,14 @@ class ResultsScreen(QWidget):
         # Layout para informações secundárias (número e fonte)
         info_layout = QHBoxLayout()
         
-        # Número da receita
-        numero = recipe_data.get('NUMBER', '')
-        numero_label = QLabel(f"Receita #{numero}")
-        numero_label.setFont(QFont("Arial", 10))
-        numero_label.setStyleSheet("color: #7f8c8d;")
-        
         # Fonte da receita
         source = recipe_data.get('SOURCE', 'Desconhecida')
         source_label = QLabel(f"Fonte: {source.replace('_', ' ').replace('src/dados/', '').replace('/receitas', '').title()}")
         source_label.setFont(QFont("Arial", 10))
         source_label.setStyleSheet("color: #27ae60; font-weight: bold;")
         
-        info_layout.addWidget(numero_label)
-        info_layout.addStretch()
         info_layout.addWidget(source_label)
+        info_layout.addStretch()
         
         # Botão de seleção
         select_btn = QPushButton("Selecionar Receita")
@@ -164,9 +157,10 @@ class ResultsScreen(QWidget):
         """)
         select_btn.clicked.connect(lambda: self.select_recipe(recipe_data))
         
+        info_layout.addWidget(select_btn)
+
         layout.addWidget(title_label)
         layout.addLayout(info_layout)
-        layout.addWidget(select_btn, alignment=Qt.AlignRight)
         
         card.setLayout(layout)
         return card
@@ -224,10 +218,6 @@ class ResultsScreen(QWidget):
     
     def select_recipe(self, recipe_data):
         """Lida com a seleção de uma receita - abre a tela de detalhes"""
-        title = recipe_data.get('TITLE', '')
-        numero = recipe_data.get('NUMBER', '')
-        source = recipe_data.get('SOURCE', '')
-        print(f"Receita selecionada: #{numero} - {title} (Fonte: {source})")
         # Abre os detalhes da receita
         self.main_window.show_recipe_detail(recipe_data)
     

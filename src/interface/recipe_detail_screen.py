@@ -177,10 +177,10 @@ class RecipeDetailScreen(QWidget):
         title_section = self.create_info_section("Título da Receita", f"{title}")
         self.content_layout.addWidget(title_section)
         
-        # Número da receita
-        numero = self.current_recipe.get('NUMBER')
-        numero_section = self.create_info_section("Número da Receita", f"#{numero}")
-        self.content_layout.addWidget(numero_section)
+        # Fonte da receita
+        fonte = self.current_recipe.get('SOURCE')
+        fonte_section = self.create_info_section("Fonte", f"{fonte.replace('_', ' ').replace('src/dados/', '').replace('/receitas', '').title()}")
+        self.content_layout.addWidget(fonte_section)
         
         # Autor
         author = self.current_recipe.get('AUTHOR', '')
